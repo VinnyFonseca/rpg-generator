@@ -1,0 +1,337 @@
+{
+    "Type": {
+        "1": {
+            "Value": "Alchemical",
+            "Subtype": {
+                "1": {
+                    "1-3": "Alkahest",
+                    "4-6": "Death"
+                },
+                "2": {
+                    "1-3": "Liquid Ice",
+                    "4-6": "Magebane"
+                },
+                "3": {
+                    "1-3": "Sleep",
+                    "4-6": "Weakness"
+                },
+                "4": {
+                    "1-3": "Fear",
+                    "4-6": "Foolishness"
+                },
+                "5": {
+                    "1-3": "Combustion",
+                    "4-6": "Clumsiness"
+                },
+                "6": {
+                    "1-3": "Debilitation",
+                    "4-6": "Unluckiness"
+                }
+            }
+        },
+        "2": {
+            "Value": "Poison",
+            "Subtype": {
+                "1": "Acid",
+                "2": "Alchemist's Fire",
+                "3": "Bladeblack",
+                "4": "Demon's Brew",
+                "5": "Monster Drool",
+                "6": "Oozing Doom"
+            }
+        },
+        "3-4": {
+            "Value": "Mechanical",
+            "Subtype": {
+                "1": {
+                    "Value": "Melee Weapon",
+                    "Weapon": {
+                        "1": {
+                            "1-3": "Axe",
+                            "4-6": "Broadsword"
+                        },
+                        "2": {
+                            "1-3": "Great Axe",
+                            "4-6": "Halberd"
+                        },
+                        "3": {
+                            "1-3": "Large Knife",
+                            "4-6": "Long Spear"
+                        },
+                        "4": {
+                            "1-3": "Morningstar",
+                            "4-6": "Maul"
+                        },
+                        "5": {
+                            "1-3": "Poleaxe",
+                            "4-6": "Scythe"
+                        },
+                        "6": {
+                            "1-3": "Shortsword",
+                            "4-6": "Spear"
+                        }
+                    }
+                },
+                "2": {
+                    "Value": "Projectile Weapon",
+                    "Weapon": {
+                        "1-2": {
+                            "1-2": "Large Net",
+                            "3-4": "Hatchet",
+                            "5-6": "Throwing Axe"
+                        },
+                        "3-4": {
+                            "1-2": "Harpoon",
+                            "3-4": "Large Knife",
+                            "5-6": "Small Knife"
+                        },
+                        "5-6": {
+                            "1-2": "Dagger",
+                            "3-4": "Spear",
+                            "5-6": "Javelin"
+                        }
+                    }
+                },
+                "3-4": {
+                    "Value": "Missile Weapon",
+                    "Weapon": {
+                        "1-2": {
+                            "1-2": "Blowpipe",
+                            "3-4": "Composite Bow",
+                            "5-6": "Crossbow"
+                        },
+                        "3-4": {
+                            "1-2": "Longbow",
+                            "3-4": "Pistol Crossbow",
+                            "5-6": "Prodd"
+                        },
+                        "5-6": {
+                            "1-2": "Regular Bow",
+                            "3-4": "Short Bow",
+                            "5-6": "Shuriken"
+                        }
+                    }
+                },
+                "5": {
+                    "Value": "Pit Trap",
+                    "Content": {
+                        "1": "Acid",
+                        "2": "Water",
+                        "3-4": "Bare",
+                        "5": "Spiked",
+                        "6": {
+                            "Value": "Exotic",
+                            "Rune": {
+                                "1-3": {
+                                    "Value": "Yes",
+                                    "Runes": {
+                                        "1-3": {
+                                            "1-3": "1 rune",
+                                            "4-6": "1d runes"
+                                        },
+                                        "4-6": {
+                                            "1-3": "1d hexes",
+                                            "4-6": "3d hexes"
+                                        }
+                                    }
+                                },
+                                "4-6": "No"
+                            }
+                        }
+                    },
+                    "Distance": {
+                        "1": {
+                            "1-3": "1 yard",
+                            "4-6": "3 yards"
+                        },
+                        "2": {
+                            "1-3": "5 yards",
+                            "4-6": "10 yards"
+                        },
+                        "3": {
+                            "1-3": "15 yards",
+                            "4-6": "20 yards"
+                        },
+                        "4": {
+                            "1-3": "25 yards",
+                            "4-6": "30 yards"
+                        },
+                        "5": {
+                            "1-3": "35 yards",
+                            "4-6": "40 yards"
+                        },
+                        "6": {
+                            "1-3": "45 yards",
+                            "4-6": "50 yards"
+                        }
+                    }
+                },
+                "6": {
+                    "Value": "Crush Trap",
+                    "Composition": {
+                        "1": {
+                            "Value": "Brick",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 5d+1",
+                                "2": "2 yards -> 8d",
+                                "3": "3 yards -> 9d",
+                                "4": "4 yards -> 10d",
+                                "5": "5 yards -> 11d",
+                                "6": "6 yards -> 12d"
+                            }
+                        },
+                        "2": {
+                            "Value": "Bronze/Iron",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 4d",
+                                "2": "2 yards -> 6d-3",
+                                "3": "3 yards -> 6d",
+                                "4": "4 yards -> 7d-2",
+                                "5": "5 yards -> 8d-3",
+                                "6": "6 yards -> 8d"
+                            }
+                        },
+                        "3": {
+                            "Value": "Tempered Glass",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 2d",
+                                "2": "2 yards -> 3d-3",
+                                "3": "3 yards -> 3d-2",
+                                "4": "4 yards -> 3d-1",
+                                "5": "5 yards -> 3d",
+                                "6": "6 yards -> 4d-2"
+                            }
+                        },
+                        "4": {
+                            "Value": "Steel",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 3d",
+                                "2": "2 yards -> 6d-2",
+                                "3": "3 yards -> 7d-3",
+                                "4": "4 yards -> 7d",
+                                "5": "5 yards -> 8d",
+                                "6": "6 yards -> 9d-2"
+                            }
+                        },
+                        "5": {
+                            "Value": "Stone",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 9d+1",
+                                "2": "2 yards -> 14d-3",
+                                "3": "3 yards -> 16d-3",
+                                "4": "4 yards -> 17d",
+                                "5": "5 yards -> 19d",
+                                "6": "6 yards -> 21d-1"
+                            }
+                        },
+                        "6": {
+                            "Value": "Wood",
+                            "Distance and Damage": {
+                                "1": "1 yard -> 5d-3",
+                                "2": "2 yards -> 6d",
+                                "3": "3 yards -> 7d",
+                                "4": "4 yards -> 8d",
+                                "5": "5 yards -> 9d-2",
+                                "6": "6 yards -> 10d-3"
+                            }
+                        }
+                    }
+                }
+            },
+            "Strength": {
+                "1": "Weak",
+                "2-4": "Moderate",
+                "5": "Strong",
+                "6": "Fiendish"
+            }
+        },
+        "5": {
+            "Value": "Magical",
+            "Subtype": {
+                "1":{
+                    "1-3": "Burning Touch",
+                    "4-6": "Deathtouch"
+                },
+                "2":{
+                    "1-3": "Dehydrate",
+                    "4-6": "Frostbite"
+                },
+                "3":{
+                    "1-3": "Icy Touch",
+                    "4-6": "Shocking Touch"
+                },
+                "4":{
+                    "1-3": "Strike Blind",
+                    "4-6": "Strike Deaf"
+                },
+                "5":{
+                    "1-3": "Flesh to Stone",
+                    "4-6": "Fascinate"
+                },
+                "6":{
+                    "1-3": "Glue",
+                    "4-6": "Rotting Death"
+                }
+            },
+            "Rune": {
+                "1-3": {
+                    "Value": "Yes",
+                    "Runes": {
+                        "1-3": {
+                            "1-3": "1 rune",
+                            "4-6": "1d runes"
+                        },
+                        "4-6": {
+                            "1-3": "1d hexes",
+                            "4-6": "3d hexes"
+                        }
+                    }
+                },
+                "4-6": "No"
+            }
+        },
+        "6": {
+            "Value": "Tricks",
+            "Subtype": {
+                "1-2": "Crafty",
+                "3-4": "Portal",
+                "5-6": "Illusion"
+            }
+        }
+    },
+    "Trigger": {
+        "1": "Location",
+        "2": "Tripwire",
+        "3": "Proximity",
+        "4": "Touch",
+        "5": "Durational",
+        "6": "Special"
+    },
+    "Rearmament": {
+        "1": "None",
+        "2-3": "Repair",
+        "4-5": "Manual Reset",
+        "6": "Automatic"
+    },
+    "Shots": {
+        "1": "Constant",
+        "2-4": "1 shot",
+        "5": "1d shots",
+        "6": "3d shots"
+    },
+    "Quality": {
+        "1-2": {
+            "1-2": "Crude [+8 +3]",
+            "3-4": "Easy [+4 +2]",
+            "5-6": "Moderate [+2 +1]"
+        },
+        "3-4": {
+            "1-6": "Difficult [+0 +0]"
+        },
+        "5-6": {
+            "1-2": "Challenging [-2 -1]",
+            "3-4": "Hard [-4 -2]",
+            "5-6": "Fiendish [-8 -3]"
+        }
+    }
+}
