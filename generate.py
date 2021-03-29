@@ -31,7 +31,7 @@ Choose -> ''')
 generation_amount = int(input('How many? -> '))
 
 # Read chosen feed
-with open('data/{}.json'.format(FEED_TYPE), 'r') as myfile:
+with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
     FEED_FILE = json.loads(myfile.read())
 
 
@@ -99,7 +99,7 @@ def generate_entry():
 
 # Final list generation
 def generate():
-    file = open('results/{}_{}.txt'.format(
+    file = open('./results/{}_{}.txt'.format(
         FEED_TYPE,
         datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
     ), mode = 'a')
