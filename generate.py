@@ -37,6 +37,7 @@ with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
 
 # Single entry generation
 def get_die_type(rolls):
+    # TODO: More flexibility for die recognition (get higher from header split)
     last_roll = list(rolls.keys())[-1].split('-')
     highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
 
@@ -68,7 +69,7 @@ def generate_entry():
             else:
                 entry.append(attribute)
         else:
-            rollable_range = is_rollable and header.split('-')
+            rollable_range = header.split('-')
             matches_roll_value = rollable_range and (
                 die == int(rollable_range[0]) or (
                     len(rollable_range) > 1
