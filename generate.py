@@ -102,7 +102,7 @@ def generate():
     file = open('results/{}_{}.txt'.format(
         FEED_TYPE,
         datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
-    ), 'a')
+    ), mode = 'a')
     counter = 0
 
     while counter < generation_amount:
