@@ -101,7 +101,7 @@ def generate_entry():
 def generate():
     file = open('./results/{}_{}.txt'.format(
         FEED_TYPE,
-        datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
+        datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     ), mode = 'a')
     counter = 0
 
