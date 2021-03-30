@@ -9,8 +9,10 @@ import random
 import sys
 from prettytable import PrettyTable
 
+
 # Global vars
 is_debug = len(sys.argv) > 1 and sys.argv[1] == 'debug'
+
 
 # User choices
 while True:
@@ -33,22 +35,18 @@ Choose -> ''')
 
 generation_amount = int(input('How many? -> '))
 
+
 # Read chosen feed
 with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
     FEED_FILE = json.loads(myfile.read())
 
 
-# Single entry generation
-def get_die_type(rolls):
-    last_roll = list(rolls.keys())[-1].split('-')
-    highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
-
-    return int(highest_roll) if highest_roll.isnumeric() else 6
-
-
 # Random die roll based on autodetected number of faces
-def roll_die(attribute):
-    die = get_die_type(attribute)
+def roll_die(trait):
+    last_roll = list(trait.keys())[-1].split('-')
+    highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
+    die = int(highest_roll) if highest_roll.isnumeric() else 6
+
     return random.randint(1, die)
 
 
@@ -63,51 +61,56 @@ def die_match(die, rollable_range):
 
 
 # Main function
-def generate_entry():
+def build():
     headers = []
     cells = []
 
     # Recursive function
-    def get_attribute(header, attribute, die):
+    def get_trait(header, trait, die):
         is_rollable = '-' in header or header.isnumeric()
 
         if not is_rollable:
             if header != 'Value':
                 headers.append(header)
-                roll_result = roll_die(attribute)
+                roll_result = roll_die(trait)
 
-                for key, value in attribute.items():
-                    get_attribute(key, value, roll_result)
+                for key, value in trait.items():
+                    get_trait(key, value, roll_result)
             else:
-                cells.append([die, attribute] if is_debug else attribute)
+                cells.append([die, trait] if is_debug else trait)
         elif die_match(die, header.split('-')):
-            if isinstance(attribute, dict):
-                roll_result = roll_die(attribute)
+            if isinstance(trait, dict):
+                roll_result = roll_die(trait)
 
-                for key, value in attribute.items():
-                    get_attribute(key, value, roll_result)
+                for key, value in trait.items():
+                    get_trait(key, value, roll_result)
             else:
-                cells.append([die, attribute] if is_debug else attribute)
+                cells.append([die, trait] if is_debug else trait)
 
     # Init recursion
-    for header, attribute in FEED_FILE.items():
-        roll_result = roll_die(attribute)
-        get_attribute(header, attribute, roll_result)
+    for header, trait in FEED_FILE.items():
+        roll_result = roll_die(trait)
+        get_trait(header, trait, roll_result)
 
     return (headers, cells)
 
 
 # Final list generation
 def generate():
+    # Create results directory if it doesn't exist
+    if not os.path.exists('results'):
+        os.makedirs('results')
+
+    # Create file
     file = open('./results/{}_{}.txt'.format(
         FEED_TYPE,
         datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     ), mode='a')
-    counter = 0
 
-    while counter < generation_amount:
+    # Create required amount of entries
+    for i in range(generation_amount):
         # Entry deconstruction
-        (headers, cells) = generate_entry()
+        (headers, cells) = build()
 
         # Generate entry table
         pretty_table = PrettyTable()
@@ -118,13 +121,11 @@ def generate():
         file.write(str(pretty_table) + '\n')
 
         # Loop 1up
-        counter += 1
+        i += 1
 
+    # Write to disk
     file.close()
 
 
-# Write to disk
-if not os.path.exists('results'):
-    os.makedirs('results')
-
+# Run
 generate()
