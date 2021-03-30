@@ -92,10 +92,10 @@ def generate_entry():
         get_attribute(header, attribute, roll_result)
 
     # Generate entry table
-    pt = PrettyTable()
-    pt.field_names = headers
-    pt.add_row(entry)
-    return str(pt)
+    pretty_table = PrettyTable()
+    pretty_table.field_names = headers
+    pretty_table.add_row(entry)
+    return str(pretty_table)
 
 
 # Final list generation
@@ -103,7 +103,7 @@ def generate():
     file = open('./results/{}_{}.txt'.format(
         FEED_TYPE,
         datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    ), mode = 'a')
+    ), mode='a')
     counter = 0
 
     while counter < generation_amount:
