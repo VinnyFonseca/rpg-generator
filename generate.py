@@ -9,6 +9,9 @@ import random
 import sys
 from prettytable import PrettyTable
 
+# Global vars
+is_debug = len(sys.argv) > 1 and sys.argv[1] == 'debug'
+
 # User choices
 while True:
     choice = input('''What would you like to generate?
@@ -37,7 +40,6 @@ with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
 
 # Single entry generation
 def get_die_type(rolls):
-    # TODO: More flexibility for die recognition (get higher from header split)
     last_roll = list(rolls.keys())[-1].split('-')
     highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
 
@@ -45,14 +47,25 @@ def get_die_type(rolls):
 
 
 # Random die roll based on autodetected number of faces
-def roll_die(faces):
-    return random.randint(1, faces)
+def roll_die(attribute):
+    die = get_die_type(attribute)
+    return random.randint(1, die)
+
+
+# Detect if rolled die is inside rollable range
+def die_match(die, rollable_range):
+    return rollable_range and (
+        die is int(rollable_range[0]) or (
+            len(rollable_range) > 1
+            and int(rollable_range[0]) <= die <= int(rollable_range[1])
+        )
+    )
 
 
 # Main function
 def generate_entry():
     headers = []
-    entry = []
+    cells = []
 
     # Recursive function
     def get_attribute(header, attribute, die):
@@ -61,41 +74,27 @@ def generate_entry():
         if not is_rollable:
             if header != 'Value':
                 headers.append(header)
-                die = get_die_type(attribute)
-                roll_result = roll_die(die)
+                roll_result = roll_die(attribute)
 
                 for key, value in attribute.items():
                     get_attribute(key, value, roll_result)
             else:
-                entry.append(attribute)
-        else:
-            rollable_range = header.split('-')
-            matches_roll_value = rollable_range and (
-                die == int(rollable_range[0]) or (
-                    len(rollable_range) > 1
-                    and int(rollable_range[0]) <= die <= int(rollable_range[1])
-                ))
+                cells.append([die, attribute] if is_debug else attribute)
+        elif die_match(die, header.split('-')):
+            if isinstance(attribute, dict):
+                roll_result = roll_die(attribute)
 
-            if matches_roll_value:
-                if isinstance(attribute, dict):
-                    die = get_die_type(attribute)
-                    roll_result = roll_die(die)
-
-                    for key, value in attribute.items():
-                        get_attribute(key, value, roll_result)
-                else:
-                    entry.append(attribute)
+                for key, value in attribute.items():
+                    get_attribute(key, value, roll_result)
+            else:
+                cells.append([die, attribute] if is_debug else attribute)
 
     # Init recursion
     for header, attribute in FEED_FILE.items():
-        roll_result = roll_die(6)
+        roll_result = roll_die(attribute)
         get_attribute(header, attribute, roll_result)
 
-    # Generate entry table
-    pretty_table = PrettyTable()
-    pretty_table.field_names = headers
-    pretty_table.add_row(entry)
-    return str(pretty_table)
+    return (headers, cells)
 
 
 # Final list generation
@@ -107,7 +106,18 @@ def generate():
     counter = 0
 
     while counter < generation_amount:
-        file.write(generate_entry() + '\n')
+        # Entry deconstruction
+        (headers, cells) = generate_entry()
+
+        # Generate entry table
+        pretty_table = PrettyTable()
+        pretty_table.field_names = headers
+        pretty_table.add_row(cells)
+
+        # Write table to file
+        file.write(str(pretty_table) + '\n')
+
+        # Loop 1up
         counter += 1
 
     file.close()
