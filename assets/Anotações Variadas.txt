@@ -1,0 +1,28 @@
+1, 1, 1 Spices – 
+1, 1, 2 Spices – 
+1, 1, 3 Spices – 
+1, 1, 4 Spices – 
+1, 1, 5 Spices – 
+1, 1, 6 Spices 1 
+1, 2, 1 Spices –  Dobro
+1, 2, 2 Spices –  Dobro
+1, 2, 3 Spices 1  Dobro
+1, 2, 4 Spices –  Triplo
+1, 2, 5 Spices –  Triplo
+1, 2, 6 Spices 1  Triplo
+
+5 chances de tempero normal
+1 chance de tempero normal com embelezamento
+2 chances tempero dobro
+1 chance tempero dobro com embelezamento
+2 chances tempero triplo
+1 chance tempero triplo com embelezamento
+
+12 chances no total
+
+14
+28
+42
+56
+70
+85
