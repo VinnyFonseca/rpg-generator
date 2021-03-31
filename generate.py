@@ -9,6 +9,11 @@ import random
 import sys
 from prettytable import PrettyTable
 
+
+# Global vars
+is_debug = len(sys.argv) > 1 and sys.argv[1] == 'debug'
+
+
 # User choices
 while True:
     choice = input('''What would you like to generate?
@@ -30,91 +35,97 @@ Choose -> ''')
 
 generation_amount = int(input('How many? -> '))
 
+
 # Read chosen feed
 with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
     FEED_FILE = json.loads(myfile.read())
 
 
-# Single entry generation
-def get_die_type(rolls):
-    # TODO: More flexibility for die recognition (get higher from header split)
-    last_roll = list(rolls.keys())[-1].split('-')
-    highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
-
-    return int(highest_roll) if highest_roll.isnumeric() else 6
-
-
 # Random die roll based on autodetected number of faces
-def roll_die(faces):
-    return random.randint(1, faces)
+def roll_die(trait):
+    last_roll = list(trait.keys())[-1].split('-')
+    highest_roll = last_roll[1] if len(last_roll) > 1 else last_roll[0]
+    die = int(highest_roll) if highest_roll.isnumeric() else 6
+
+    return random.randint(1, die)
+
+
+# Detect if rolled die is inside rollable range
+def die_match(die, rollable_range):
+    return rollable_range and (
+        die is int(rollable_range[0]) or (
+            len(rollable_range) > 1
+            and int(rollable_range[0]) <= die <= int(rollable_range[1])
+        )
+    )
 
 
 # Main function
-def generate_entry():
+def build():
     headers = []
-    entry = []
+    cells = []
 
     # Recursive function
-    def get_attribute(header, attribute, die):
+    def get_trait(header, trait, die):
         is_rollable = '-' in header or header.isnumeric()
 
         if not is_rollable:
             if header != 'Value':
                 headers.append(header)
-                die = get_die_type(attribute)
-                roll_result = roll_die(die)
+                roll_result = roll_die(trait)
 
-                for key, value in attribute.items():
-                    get_attribute(key, value, roll_result)
+                for key, value in trait.items():
+                    get_trait(key, value, roll_result)
             else:
-                entry.append(attribute)
-        else:
-            rollable_range = header.split('-')
-            matches_roll_value = rollable_range and (
-                die == int(rollable_range[0]) or (
-                    len(rollable_range) > 1
-                    and int(rollable_range[0]) <= die <= int(rollable_range[1])
-                ))
+                cells.append([die, trait] if is_debug else trait)
+        elif die_match(die, header.split('-')):
+            if isinstance(trait, dict):
+                roll_result = roll_die(trait)
 
-            if matches_roll_value:
-                if isinstance(attribute, dict):
-                    die = get_die_type(attribute)
-                    roll_result = roll_die(die)
-
-                    for key, value in attribute.items():
-                        get_attribute(key, value, roll_result)
-                else:
-                    entry.append(attribute)
+                for key, value in trait.items():
+                    get_trait(key, value, roll_result)
+            else:
+                cells.append([die, trait] if is_debug else trait)
 
     # Init recursion
-    for header, attribute in FEED_FILE.items():
-        roll_result = roll_die(6)
-        get_attribute(header, attribute, roll_result)
+    for header, trait in FEED_FILE.items():
+        roll_result = roll_die(trait)
+        get_trait(header, trait, roll_result)
 
-    # Generate entry table
-    pt = PrettyTable()
-    pt.field_names = headers
-    pt.add_row(entry)
-    return str(pt)
+    return (headers, cells)
 
 
 # Final list generation
 def generate():
+    # Create results directory if it doesn't exist
+    if not os.path.exists('results'):
+        os.makedirs('results')
+
+    # Create file
     file = open('./results/{}_{}.txt'.format(
         FEED_TYPE,
         datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    ), mode = 'a')
-    counter = 0
+    ), mode='a')
 
-    while counter < generation_amount:
-        file.write(generate_entry() + '\n')
-        counter += 1
+    # Create required amount of entries
+    for i in range(generation_amount):
+        # Entry deconstruction
+        (headers, cells) = build()
 
+        # Generate entry table
+        pretty_table = PrettyTable()
+        pretty_table.field_names = headers
+        pretty_table.add_row(cells)
+
+        # Write table to file
+        file.write(str(pretty_table) + '\n')
+
+        # Loop 1up
+        i += 1
+
+    # Write to disk
     file.close()
 
 
-# Write to disk
-if not os.path.exists('results'):
-    os.makedirs('results')
-
+# Run
 generate()
