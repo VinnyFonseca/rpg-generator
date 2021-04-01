@@ -25,10 +25,10 @@ while True:
 Choose -> ''')
 
     if choice == '1':
-        FEED_TYPE = 'traps'
+        FEED_NAME = 'traps'
         break
     if choice == '2':
-        FEED_TYPE = 'treasures'
+        FEED_NAME = 'treasures'
         break
     if choice == 'q':
         sys.exit()
@@ -36,9 +36,17 @@ Choose -> ''')
 generation_amount = int(input('How many? -> '))
 
 
+# File function
+def read_feed(name, partial=False):
+    with open((
+        './data/{}.json' if not partial
+        else './data/partials/{}'
+    ).format(name), 'r') as file:
+        return json.loads(file.read())
+
+
 # Read chosen feed
-with open('./data/{}.json'.format(FEED_TYPE), 'r') as feed:
-    FEED_FILE = json.loads(feed.read())
+FEED_FILE = read_feed(FEED_NAME)
 
 
 # Random die roll based on autodetected number of faces
@@ -60,10 +68,25 @@ def die_match(die, rollable_range):
     )
 
 
+# Build value to append
+def build_value(die, trait):
+    if isinstance(trait, list):
+        trait = '\n'.join(trait)
+
+    return [die, trait] if is_debug else trait
+
+
 # Main function
 def build():
     headers = []
     cells = []
+
+    # Roll and loop through a given trait
+    def roll_trait(trait):
+        roll_result = roll_die(trait)
+
+        for key, value in trait.items():
+            get_trait(key, value, roll_result)
 
     # Recursive function
     def get_trait(header, trait, die):
@@ -72,33 +95,17 @@ def build():
         if not is_rollable:
             if header != 'Value':
                 headers.append(header)
-                roll_result = roll_die(trait)
-
-                for key, value in trait.items():
-                    get_trait(key, value, roll_result)
+                roll_trait(trait)
             else:
-                if isinstance(trait, list):
-                    trait = '\n'.join(trait)
-
-                cells.append([die, trait] if is_debug else trait)
+                cells.append(build_value(die, trait))
         elif die_match(die, header.split('-')):
             if isinstance(trait, dict):
-                roll_result = roll_die(trait)
-
-                for key, value in trait.items():
-                    get_trait(key, value, roll_result)
+                roll_trait(trait)
             elif '.json' in trait:
-                with open('./data/partials/{}'.format(trait), 'r') as feed:
-                    partial = json.loads(feed.read())
-                    roll_result = roll_die(partial)
-
-                    for key, value in partial.items():
-                        get_trait(key, value, roll_result)
+                partial = read_feed(trait, True)
+                roll_trait(partial)
             else:
-                if isinstance(trait, list):
-                    trait = '\n'.join(trait)
-
-                cells.append([die, trait] if is_debug else trait)
+                cells.append(build_value(die, trait))
 
     # Init recursion
     for header, trait in FEED_FILE.items():
@@ -116,7 +123,7 @@ def generate():
 
     # Create file
     file = open('./results/{}_{}.txt'.format(
-        FEED_TYPE,
+        FEED_NAME,
         datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     ), mode='a')
 
