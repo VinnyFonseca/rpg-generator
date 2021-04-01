@@ -69,7 +69,17 @@
             "6": "Contas/Pregos, Mínimo, +0,75FC, contas de metal",
             "7": "Contas/Pregos, Extenso, +2FC, cobre a maior parte do item",
             "8": "Marcação em Ferro, +1FC, padrão queimado no item, se metal como Contas/Pregos, Mínimo",
-            
+            "9": "Pintura/Esmalte, Mínimo, +2FC, um pequeno desenho pintado, se metal esmalte cozido nele",
+            "10": "Pintura/Esmalte, Extenso, +5FC, cobre a maior parte do item",
+            "11": "Relevo, Mínimo, +1,5FC, pequeno desenho escavado, impresso ou estampado na superfície do item",
+            "12": "Relevo, Extenso, +4FC, cobre a maior parte do item",
+            "13": "Mosaico, Barato, Mínimo, +2,5FC, Como relevo, mas com materiais coloridos diferentes como madeira preta em madeira branca",
+            "14": "Mosaico, Barato, Extenso, +7FC, cobre a maior parte do item",
+            "15": "Mosaico, Caro, Mínimo, +6FC, como ébano em madeira, pérolas ou pedras semipreciosas",
+            "16": "Mosaico, Caro, Extenso, +14FC, cobre a maior parte do item",
+            "17": "Revestimento de Prata, +2FC, uma fina camada de prata",
+            "18": "Douramento, +19FC, uma fina camada de ouro",
+            "19": "Joalheira, varia, tem 1d/3 pedras preciosas encrustadas"
         }
     } 
 }
