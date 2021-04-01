@@ -37,8 +37,8 @@ generation_amount = int(input('How many? -> '))
 
 
 # Read chosen feed
-with open('./data/{}.json'.format(FEED_TYPE), 'r') as myfile:
-    FEED_FILE = json.loads(myfile.read())
+with open('./data/{}.json'.format(FEED_TYPE), 'r') as feed:
+    FEED_FILE = json.loads(feed.read())
 
 
 # Random die roll based on autodetected number of faces
@@ -77,6 +77,9 @@ def build():
                 for key, value in trait.items():
                     get_trait(key, value, roll_result)
             else:
+                if isinstance(trait, list):
+                    trait = '\n'.join(trait)
+
                 cells.append([die, trait] if is_debug else trait)
         elif die_match(die, header.split('-')):
             if isinstance(trait, dict):
@@ -84,7 +87,17 @@ def build():
 
                 for key, value in trait.items():
                     get_trait(key, value, roll_result)
+            elif '.json' in trait:
+                with open('./data/partials/{}'.format(trait), 'r') as feed:
+                    partial = json.loads(feed.read())
+                    roll_result = roll_die(partial)
+
+                    for key, value in partial.items():
+                        get_trait(key, value, roll_result)
             else:
+                if isinstance(trait, list):
+                    trait = '\n'.join(trait)
+
                 cells.append([die, trait] if is_debug else trait)
 
     # Init recursion
