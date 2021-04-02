@@ -141,8 +141,13 @@
         "3": {
             "1": "Mapa Imaginário",
             "2-5": "Mapa razoavelmente preciso de um lugar real",
-            "6": "Mapa de um lugar particularmente interessante, tesouro perdido, templo secreto de artes marciais, portal para outro dimensão"
-            },
+            "6": [
+                "Mapa de um lugar particularmente interessante,",
+                "tesouro perdido,",
+                "templo secreto de artes marciais, ou,",
+                "portal para outro dimensão"
+            ]
+        },
         "4": "Prado",
         "5": "Montanhas",
         "6": "Céu Noturno"
@@ -213,7 +218,7 @@
     },
     "27": {
         "1": "Arabescos",
-        "2":{
+        "2": {
             "1": "Caligrafia com o nome do dono original",
             "2-3": "Caligrafia desejando boa sorte ao dono",
             "4-5": "Caligrafia com texto inspirador",
@@ -226,7 +231,8 @@
     },
     "28": {
         "1": "Hachurado",
-        "2": ["Emulação",
+        "2": [
+            "Emulação",
             "Item feito para parecer com um objeto ou parte do corpo"
         ],
         "3": "Padrão Floral",
@@ -252,153 +258,153 @@
     },
     "31": {
         "1": "Signo Zodiacal",
-        "2": {        
+        "2": {
             "1-5": "Jogo de Bola",
             "6": "Jogo de Bola, narrativa"
         },
-        "3": {        
+        "3": {
             "1-5": "Batalha",
             "6": "Batalha, narrativa"
         },
-        "4":  {        
+        "4": {
             "1-5": "Nascimento / Apresentação de Criança",
             "6": "Nascimento / Apresentação de Criança, narrativa"
         },
-        "5":  {        
+        "5": {
             "1-5": "Edifício",
             "6": "Edifício, narrativa"
         },
-        "6":  {        
+        "6": {
             "1-5": "Refeição Comunal",
             "6": "Refeição Comunal, narrativa"
         }
     },
     "32": {
-        "1":  {        
+        "1": {
             "1-5": "Coroação",
             "6": "Coroação, narrativa"
         },
-        "2":  {        
+        "2": {
             "1-5": "Dança",
             "6": "Dança, narrativa"
         },
-        "3":  {        
+        "3": {
             "1-5": "Terremoto",
             "6": "Terremoto, narrativa"
         },
-        "4":  {        
+        "4": {
             "1-5": "Erótica",
             "6": "Erótica, narrativa"
         },
-        "5":  {        
+        "5": {
             "1-5": "Exorcismo",
             "6": "Exorcismo, narrativa"
         },
-        "6":  {        
+        "6": {
             "1-5": "Corrida à Pé",
             "6": "Corrida à Pé, narrativa"
         }
     },
     "33": {
-        "1":  {        
+        "1": {
             "1-5": "Funeral",
             "6": "Funeral, narrativa"
         },
-        "2":  {        
+        "2": {
             "1-5": "Jogo",
             "6": "Jogo, narrativa"
         },
-        "3":  {        
+        "3": {
             "1-5": "Doação de Presente",
             "6": "Doação de Presente, narrativa"
         },
-        "4":  {        
+        "4": {
             "1-5": "Colheita",
             "6": "Colheita, narrativa"
         },
-        "5":  {        
+        "5": {
             "1-5": "Caça",
             "6": "Caça, narrativa"
         },
-        "6":  {        
+        "6": {
             "1-5": "Batalha Psiônica",
             "6": "Batalha Psiônica, narrativa"
         }
     },
     "34": {
-        "1":  {        
+        "1": {
             "1-5": "Mercado",
             "6": "Mercado, narrativa"
         },
-        "2":  {        
+        "2": {
             "1-5": "Assassinato",
             "6": "Assassinato, narrativa"
         },
-        "3":  {        
+        "3": {
             "1-5": "Performance Musical",
             "6": "Performance Musical, narrativa"
         },
-        "4":  {        
+        "4": {
             "1-5": "Mãe que Amamenta",
             "6": "Mãe que Amamenta, narrativa"
         },
-        "5":  {        
+        "5": {
             "1-5": "Festa",
             "6": "Festa, narrativa"
         },
-        "6":  {        
+        "6": {
             "1-5": "Morte Pacífica",
             "6": "Morte Pacífica, narrativa"
         }
     },
     "35": {
-        "1":  {        
+        "1": {
             "1-5": "Arado / Plantio",
             "6": "Arado / Plantio, narrativa"
         },
-        "2":   {        
+        "2": {
             "1-5": "Procissão",
             "6": "Procissão, narrativa"
         },
-        "3":   {        
+        "3": {
             "1-5": "Sacrifício",
             "6": "Sacrifício, narrativa"
         },
-        "4":   {        
+        "4": {
             "1-5": "Vela",
             "6": "Vela, narrativa"
         },
-        "5":   {        
+        "5": {
             "1-5": "Naufrágio",
             "6": "Naufrágio, narrativa"
         },
-        "6":   {        
+        "6": {
             "1-5": "Discurso / Sermão",
             "6": "Discurso / Sermão, narrativa"
         }
     },
     "36": {
-        "1":   {        
+        "1": {
             "1-5": "Ensino",
             "6": "Ensino, narrativa"
         },
-        "2":   {        
+        "2": {
             "1-5": "Cuidando de Animais",
             "6": "Cuidando de Animais, narrativa"
         },
-        "3":   {        
+        "3": {
             "1-5": "Viagens",
             "6": "Viagens, narrativa"
         },
-        "4":   {        
+        "4": {
             "1-5": "Casamento",
             "6": "Casamento, narrativa"
         },
-        "5":   {        
+        "5": {
             "1-5": "Adoração",
             "6": "Adoração, narrativa"
         },
-        "6":   {        
+        "6": {
             "1-5": "Luta Livre / Boxe",
             "6": "Luta Livre / Boxe, narrativa"
         }
