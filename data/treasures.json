@@ -151,9 +151,7 @@
             },
             "Embelezamento": {
                 "1-9": "Não",
-                "10-12": ["embelezamento_duro.json",
-                    "motivo_decorativo.json"
-                ]
+                "10-12": "embelezamento_duro.json"
             },
             "Motivo Decorativo": {
                 "1": "motivo_decorativo.json"
