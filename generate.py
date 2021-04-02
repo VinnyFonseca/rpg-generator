@@ -41,7 +41,7 @@ def read_feed(name, partial=False):
     with open((
         './data/{}.json' if not partial
         else './data/partials/{}'
-    ).format(name), 'r') as file:
+    ).format(name), 'r', encoding='utf-8') as file:
         return json.loads(file.read())
 
 
