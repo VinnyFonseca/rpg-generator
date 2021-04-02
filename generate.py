@@ -41,7 +41,7 @@ def read_feed(name, partial=False):
     with open((
         './data/{}.json' if not partial
         else './data/partials/{}'
-    ).format(name), 'r', encoding='iso-8859-1') as file:
+    ).format(name), 'r', encoding='latin-1') as file:
         return json.loads(file.read())
 
 
@@ -125,7 +125,7 @@ def generate():
     file = open('./results/{}_{}.txt'.format(
         FEED_NAME,
         datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    ), mode='a')
+    ), mode='a', encoding='latin-1')
 
     # Create required amount of entries
     for i in range(generation_amount):
