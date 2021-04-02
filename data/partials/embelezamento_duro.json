@@ -1,45 +1,43 @@
 {
     "1": [
-        "Forrado, +1FC",
+        "Forrado",
+        "+1FC",
         "RD+4 x contusão/colisão"
     ],
     "2": [
         "Boa Qualidade",
         "+2FC",
-        "teca",
-        "ébano",
+        "teca, ébano",
         "marfim para madeira",
         "vidro colorido para cerâmica",
-        "coberto de prata para metal"
+        "revestido de prata para metal"
     ],
     "3": [
         "Material Excepcional",
         "+19FC",
         "osso de dragão para madeira",
         "porcelana para cerâmica",
-        "camada de ouro para metal."
+        "revestido de ouro para metal"
     ],
     "4": [
-        "Franja Barata",
+        "Franja, Barata",
         "+0,25FC",
         "penas/pêlos animais comuns",
         "cordas de cor sem graça"
     ],
     "5": [
-        "Franja Cara",
+        "Franja, Cara",
         "+0,5FC",
         "penas/pêlos caros",
-        "tachas com cores brilhantes."
+        "tachas com cores brilhantes"
     ],
     "6": [
-        "Contas/Pregos",
-        "Mínimo",
+        "Contas/Pregos, Mínimo",
         "+0,75FC",
         "contas de metal"
     ],
     "7": [
-        "Contas/Pregos",
-        "Extenso",
+        "Contas/Pregos, Extenso",
         "+2FC",
         "cobre a maior parte do item"
     ],
@@ -47,62 +45,49 @@
         "Marcação em Ferro",
         "+1FC",
         "padrão queimado no item",
-        "se metal como Contas/Pregos",
-        "Mínimo"
+        "se metal como Contas/Pregos, Mínimo"
     ],
     "9": [
-        "Pintura/Esmalte",
-        "Mínimo",
+        "Pintura/Esmalte, Mínimo",
         "+2FC",
         "um pequeno desenho pintado",
-        "se metal esmalte cozido nele"
+        "se metal, esmalte cozido"
     ],
     "10": [
-        "Pintura/Esmalte",
-        "Extenso",
+        "Pintura/Esmalte, Extenso",
         "+5FC",
         "cobre a maior parte do item"
     ],
     "11": [
-        "Relevo",
-        "Mínimo",
+        "Relevo, Mínimo",
         "+1,5FC",
         "pequeno desenho escavado",
-        "impresso ou estampado na superfície do item"
+        "impresso/estampado superfície do item"
     ],
     "12": [
-        "Relevo",
-        "Extenso",
+        "Relevo, Extenso",
         "+4FC",
         "cobre a maior parte do item"
     ],
     "13": [
-        "Mosaico",
-        "Barato",
-        "Mínimo",
+        "Mosaico, Barato, Mínimo",
         "+2,5FC",
         "Como relevo",
-        "mas com materiais coloridos diferentes como madeira preta em madeira branca"
+        "materiais coloridos diferentes, madeira preta em madeira branca"
     ],
     "14": [
-        "Mosaico",
-        "Barato",
-        "Extenso",
+        "Mosaico, Barato, Extenso",
         "+7FC",
         "cobre a maior parte do item"
     ],
     "15": [
-        "Mosaico",
-        "Caro",
-        "Mínimo",
+        "Mosaico, Caro, Mínimo",
         "+6FC",
         "como ébano em madeira",
         "pérolas ou pedras semipreciosas"
     ],
     "16": [
-        "Mosaico",
-        "Caro",
-        "Extenso",
+        "Mosaico, Caro, Extenso",
         "+14FC",
         "cobre a maior parte do item"
     ],
