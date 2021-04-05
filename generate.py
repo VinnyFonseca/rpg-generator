@@ -81,31 +81,28 @@ def build():
     headers = []
     cells = []
 
-    # Roll and loop through a given trait
-    def roll_trait(trait):
-        roll_result = roll_die(trait)
+    # Define what action to take on a roll
+    def roll_action(die, trait):
+        if '.json' in trait:
+            trait = read_feed(trait, True)
 
-        for key, value in trait.items():
-            get_trait(key, value, roll_result)
+        if isinstance(trait, dict):
+            roll_result = roll_die(trait)
+
+            for key, value in trait.items():
+                get_trait(key, value, roll_result)
+        else:
+            cells.append(build_value(die, trait))
 
     # Recursive function
     def get_trait(header, trait, die):
         is_rollable = '-' in header or header.isnumeric()
 
-        if not is_rollable:
-            if header != 'Value':
-                headers.append(header)
-                roll_trait(trait)
-            else:
-                cells.append(build_value(die, trait))
-        elif die_match(die, header.split('-')):
-            if isinstance(trait, dict):
-                roll_trait(trait)
-            elif '.json' in trait:
-                partial = read_feed(trait, True)
-                roll_trait(partial)
-            else:
-                cells.append(build_value(die, trait))
+        if not is_rollable and header != 'Value':
+            headers.append(header)
+
+        if not is_rollable or die_match(die, header.split('-')):
+            roll_action(die, trait)
 
     # Init recursion
     for header, trait in FEED_FILE.items():
