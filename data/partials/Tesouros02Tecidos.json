@@ -225,7 +225,7 @@
         ]
     },
     "Quantidade de Rolos de 9m²": {
-        "1-6": {
+        "1-2": {
             "1": "2 unidades",
             "2": "3 unidades",
             "3": "4 unidades",
@@ -233,7 +233,7 @@
             "5": "6 unidades",
             "6": "7 unidades"
         },
-        "7-9": {
+        "3": {
             "1": "4 unidades",
             "2": "6 unidades",
             "3": "8 unidades",
@@ -241,24 +241,55 @@
             "5": "12 unidades",
             "6": "14 unidades"
         },
-        "10-12": "x3"
-    }
-    "Quantidade de Fardos de 0,5Kg": {
-        "1": "6 unidades",
-        "2": "9 unidades",
-        "3": "12 unidades",
-        "4": "15 unidades",
-        "5": "18 unidades",
-        "6": "21 unidades",
-        "7": "24 unidades",
-        "8": "27 unidades",
-        "9": "30 unidades",
-        "10": "33 unidades",
-        "11": "36 unidades"
+        "4": {
+            "1": "12 unidades",
+            "2": "18 unidades",
+            "3": "24 unidades",
+            "4": "30 unidades",
+            "5": "36 unidades",
+            "6": "42 unidades"
+        }
     },
-    "x Quantidade": {
-        "1-6": "x1",
-        "7-9": "x2",
-        "10-12": "x3"
+    "Quantidade de Fardos de 0,5Kg": {
+        "1-2": {
+            "1": "6 unidades",
+            "2": "9 unidades",
+            "3": "12 unidades",
+            "4": "15 unidades",
+            "5": "18 unidades",
+            "6": "21 unidades",
+            "7": "24 unidades",
+            "8": "27 unidades",
+            "9": "30 unidades",
+            "10": "33 unidades",
+            "11": "36 unidades"
+        },
+        "3": {
+            "1": "12 unidades",
+            "2": "18 unidades",
+            "3": "24 unidades",
+            "4": "30 unidades",
+            "5": "36 unidades",
+            "6": "42 unidades",
+            "7": "48 unidades",
+            "8": "54 unidades",
+            "9": "60 unidades",
+            "10": "66 unidades",
+            "11": "72 unidades"            
+        },
+        "4": {
+            "1": "18 unidades",
+            "2": "27 unidades",
+            "3": "36 unidades",
+            "4": "45 unidades",
+            "5": "54 unidades",
+            "6": "63 unidades",
+            "7": "72 unidades",
+            "8": "81 unidades",
+            "9": "90 unidades",
+            "10": "99 unidades",
+            "11": "114 unidades"            
+        },
+    "Cor Primária": "cor.json"
     }
 }
