@@ -1,0 +1,172 @@
+{
+    "Value": "Temperos",
+    "Nome, $/g": {
+        "1": "Pimenta da Jamaica $10/g",
+        "2": "Anis $10/g",
+        "3": "Urucum $8/g",
+        "4": "Asafétida $5/g",
+        "5": "Cardamomo $10/g",
+        "6": "Cassia $8/g",
+        "7": [
+            "Pimenta Chilli $3/g - 15g em pó, espalhadas no caminho",
+            "track por olfato = sneezing (B428)",
+            "Após, tracker HT-3 ou parar tracking por 1h"
+        ],
+        "8": [
+            "Canela $10/g - Afrodisíaco. -1 resistência Luxúria / sedução",
+            "1h"
+        ],
+        "9": "Cravo $10/g",
+        "10": [
+            "Coentro $10/g - Consumo 15g",
+            "+1 HT x veneno",
+            "1h"
+        ],
+        "11": "Cominho $10/g",
+        "12": [
+            "Fungo Saboroso de Anão $5/g - 15g/dia",
+            "+1 HT recuperar PV"
+        ],
+        "13": "Pimenta de Casca Élfica $3/g",
+        "14": [
+            "Semente Brilhante de Fada $18/g - 15g",
+            "-1 x controle/leitura da mente",
+            "1h"
+        ],
+        "15": "Funcho $5/g",
+        "16": "Feno-Grego $10/g",
+        "17": [
+            "Gengibre $3/g - 15g",
+            "tratamento x nausea (B428)",
+            "1h"
+        ],
+        "18": [
+            "Saboroso Halfling $10/g - 15g/dia",
+            "+1 HT recuperar PV"
+        ],
+        "19": [
+            "Huajiao - Pimenta Chinesa $10/g - 15g em pó",
+            "espalhadas no caminho",
+            "track por olfato = sneezing (B428)",
+            "Após, tracker HT-3 ou parar tracking por 1h"
+        ],
+        "20": "Macis $15/g",
+        "21": "Mostarda $3/g",
+        "22": [
+            "Nigella $5/g - 15g/",
+            "+1 resistir Fúria/Sanguinolência",
+            "1h"
+        ],
+        "23": "Noz-moscada $10/g",
+        "24": "Semente de Cebola $3/g",
+        "25": [
+            "Grão de Fogo Orc $10/g - 15g",
+            "+1 HT x venenos que causam inconsciência/dano por fadiga",
+            "1h"
+        ],
+        "26": [
+            "Pimenta Preta $10/g - 15g em pó",
+            "espalhadas no caminho",
+            "track por olfato = sneezing (B428)",
+            "Após, tracker HT-3 ou parar tracking por 1h"
+        ],
+        "27": [
+            "Pimenta Branca $13/g - 15g em pó",
+            "espalhadas no caminho",
+            "track por olfato = sneezing (B428)",
+            "Após, tracker HT-3 ou parar tracking por 1h"
+        ],
+        "28": "Semente de Papoula $3/g",
+        "29": "Açafrão $20/g",
+        "30": "Sal $1/g",
+        "31": "Sal Preto $3/g",
+        "32": "Sal Vermelho $3/g",
+        "33": "Sumagre $3/g",
+        "34": "Tamarindo $1/g",
+        "35": [
+            "Cúrcuma $3/g",
+            "antisséptico",
+            "+1 em Primeiros Socorros"
+        ],
+        "36": "Zedoária $10/g"
+    },
+    "Quantidade": {
+        "1-6": {
+            "1": "8g",
+            "2": "15g",
+            "3": "23g",
+            "4": "30g",
+            "5": "38g",
+            "6": "45g"
+        },
+        "7-9":{
+            "1": "16g",
+            "2": "30g",
+            "3": "46g",
+            "4": "60g",
+            "5": "78g",
+            "6": "90g"
+        },
+        "10-12": {
+            "1": "24g",
+            "2": "45g",
+            "3": "69g",
+            "4": "90g",
+            "5": "114g",
+            "6": "135g"
+        }
+    },
+    "Vasilhame": {
+        "1": [
+            "Frasco de Cristal (250mL)",
+            "RD 1",
+            "PV 1",
+            "$5",
+            "0,125Kg"
+        ],
+        "2": [
+            "Garrafa Pequena (500mL)",
+            "RD 1",
+            "PV 2",
+            "$2",
+            "0,250kg"
+        ],
+        "3": [
+            "Garrafa (1L)",
+            "RD 1",
+            "PV 4",
+            "$3",
+            "0,5Kg"
+        ],
+        "4": [
+            "Caixa de Pedra Pequena",
+            "RD 4",
+            "PV 7",
+            "$50",
+            "3Kg"
+        ],
+        "5": [
+            "Caixa de Madeira Pequena",
+            "RD 1",
+            "PV 2",
+            "$2",
+            "0,125Kg"
+        ],
+        "6": [
+            "Frasco de Ferro (250mL)",
+            "RD 3",
+            "PV 3",
+            "$15",
+            "0,250Kg"
+        ]
+    },
+    "Embelezamento": {
+        "1-9": "Não",
+        "10-12": {
+            "Value": "embelezamento_duro.json",
+            "Motivo Decorativo": "motivo_decorativo.json",
+            "Cor Primária": "cor.json",
+            "Cor Secundária": "cor.json"
+        }
+    }
+}
