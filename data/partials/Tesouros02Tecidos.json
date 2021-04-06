@@ -290,6 +290,7 @@
             "10": "99 unidades",
             "11": "114 unidades"            
         },
-    "Cor Primária": "cor.json"
+    "Cor Primária": "cor.json",
+    "Cor Secundária": "cor.json"
     }
 }
