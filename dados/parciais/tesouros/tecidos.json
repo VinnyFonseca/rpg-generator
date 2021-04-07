@@ -1,8 +1,8 @@
 {
-    "Value": "Tecidos",
+    "Value": "Tecido",
     "Nome, $, Peso": {
         "1": {
-            "Value": "Tesouros02Tecidos01Rolos.json",
+            "Value": "parciais/tesouros/tecidos/rolos.json",
             "Quantidade de Rolos de 9m²": {
                 "1-2": {
                     "1": "2 unidades",
@@ -31,7 +31,7 @@
             }
         },
         "2": {
-            "Value": "Tesouros02Tecidos02Fardos.json",
+            "Value": "parciais/tesouros/tecidos/fardos.json",
             "Quantidade de Fardos de 0,5Kg": {
                 "1-2": {
                     "1": "6 unidades",
@@ -57,7 +57,7 @@
                     "8": "54 unidades",
                     "9": "60 unidades",
                     "10": "66 unidades",
-                    "11": "72 unidades"            
+                    "11": "72 unidades"
                 },
                 "4": {
                     "1": "18 unidades",
@@ -70,10 +70,10 @@
                     "8": "81 unidades",
                     "9": "90 unidades",
                     "10": "99 unidades",
-                    "11": "114 unidades"            
+                    "11": "114 unidades"
                 }
             }
         }
     },
-    "Cor Primária": "cor.json"
+    "Cor Primária": "parciais/cores.json"
 }

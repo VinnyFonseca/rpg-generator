@@ -1,0 +1,6 @@
+{
+    "Tipo de Tesouro":{
+        "1-12": "parciais/tesouros/temperos.json",
+        "13-24": "parciais/tesouros/tecidos.json"
+    }
+}

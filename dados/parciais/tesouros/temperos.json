@@ -1,5 +1,5 @@
 {
-    "Value": "Temperos",
+    "Value": "Tempero",
     "Nome, $/g": {
         "1": "Pimenta da Jamaica $10/g",
         "2": "Anis $10/g",
@@ -163,10 +163,10 @@
     "Embelezamento": {
         "1-3": "Não",
         "4": {
-            "Value": "embelezamento_duro.json",
-            "Motivo Decorativo": "motivo_decorativo.json",
-            "Cor Primária": "cor.json",
-            "Cor Secundária": "cor.json"
+            "Value": "parciais/embelezamentos_duros.json",
+            "Motivo Decorativo": "parciais/motivos_decorativos.json",
+            "Cor Primária": "parciais/cores.json",
+            "Cor Secundária": "parciais/cores.json"
         }
     }
 }
