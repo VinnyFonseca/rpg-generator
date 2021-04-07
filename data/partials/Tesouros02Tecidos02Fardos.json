@@ -1,0 +1,32 @@
+{
+    "1": [
+        "Fibra, Linho, $0,25, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "2": [
+        "Fibra, Seda, $0,75, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "3": [
+        "Fibra, Seda Selvagem, $0,65, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "4": [
+        "Fibra, Lã, $0,20, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "5": [
+        "Fibra, Lã de Pashmina, $0,60, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "6": [
+        "Fibra, Seda de Aranha Gigante, $10, 0,5Kg",
+        "Por fardo de 0,5Kg"
+    ],
+    "7": [
+        "Fibra, Outro Mundo, $7, 0,5Kg",
+        "Por fardo de 0,5Kg",
+        "Seres sobrenaturais",
+        "Cavalos angelicais, tigres astrais, etc"
+    ]
+}

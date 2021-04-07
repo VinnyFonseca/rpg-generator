@@ -1,296 +1,79 @@
 {
     "Value": "Tecidos",
     "Nome, $, Peso": {
-        "1": [
-            "Tecido, Psiônico, $200, 3,25Kg",
-            "Por rolo de 9m²",
-            "Material incomum inerentemente psiônico"
-        ],
-        "2": [
-            "Tecido, Seda de Aranha Gigante, $565, 0,5Kg",
-            "Por rolo de 9m²",
-            "Para armaduras leves"
-        ],
-        "3-4": [
-            "Tecido, Gaze, $5, 0,75Kg",
-            "Por rolo de 9m²",
-            "Delicado e decorativo"
-        ],
-        "5-6": [
-            "Pano, Linho, $14, 1,25Kg",
-            "Por rolo de 9m²",
-            "Pano puro, fino e branco, para sacerdotes"
-        ],
-        "7-8": [
-            "Tecido, Lã de Pashmina, $45, 2Kg",
-            "Por rolo de 9m²",
-            "Lã cara, agradável, para roupas quentes e leves"
-        ],
-        "9-10": [
-            "Tecido, Seda Simples, $17, 1Kg",
-            "Por rolo de 9m²",
-            "Trama grossa de fibra fina"
-        ],
-        "11-12": [
-            "Pano, Samito, $42,50, 1,5Kg",
-            "Por rolo de 9m²",
-            "Seda fina, ligeiramente brilhante"
-        ],
-        "13-14": [
-            "Tecido, Cetim, $75, 1Kg",
-            "Por rolo de 9m²",
-            "Seda fina e macia"
-        ],
-        "15-16": [
-            "Tecido, Veludo, $18, 2,5Kg",
-            "Por rolo de 9m²"
-        ],
-        "17": [
-            "Pano, Lã, $15, 3Kg",
-            "Por rolo de 9m²",
-            "Utilitário, quente, resistente, pesado"
-        ],
-        "18": {
-            "Value": [
-                "Pele/Pêlo, Comum, $200, 37,5Kg",
-                "Por rolo de 9m²"
-            ],
-            "Animal": {
-                "1": "Foca",
-                "2": "Macaco",
-                "3": "Coelho",
-                "4": "Raposa",
-                "5": "Cabra",
-                "6": "Cavalo",
-                "7": "Boi",
-                "8": "Cervo",
-                "9": "Alce",
-                "10": "Rena",
-                "11": "Antílope",
-                "12": "Cabra Íbex"
+        "1": {
+            "Value": "Tesouros02Tecidos01Rolos.json",
+            "Quantidade de Rolos de 9m²": {
+                "1-2": {
+                    "1": "2 unidades",
+                    "2": "3 unidades",
+                    "3": "4 unidades",
+                    "4": "5 unidades",
+                    "5": "6 unidades",
+                    "6": "7 unidades"
+                },
+                "3": {
+                    "1": "4 unidades",
+                    "2": "6 unidades",
+                    "3": "8 unidades",
+                    "4": "10 unidades",
+                    "5": "12 unidades",
+                    "6": "14 unidades"
+                },
+                "4": {
+                    "1": "12 unidades",
+                    "2": "18 unidades",
+                    "3": "24 unidades",
+                    "4": "30 unidades",
+                    "5": "36 unidades",
+                    "6": "42 unidades"
+                }
             }
         },
-        "19": {
-            "Value": [
-                "Pele/Pêlo, Exótico, $500, 37,5Kg",
-                "Por rolo de 9m²"
-            ],
-            "Animal": {
-                "1": "Zibelina",
-                "2": "Arminho",
-                "3": "Jaguar",
-                "4": "Leão",
-                "5": "Tigre",
-                "6": "Lobo",
-                "7": "Urso",
-                "8": "Wyvern",
-                "9": "Lobo Atroz",
-                "10": "Urso das Cavernas",
-                "11": "Macaco Gigante",
-                "12": "Cobra Gelada"
+        "2": {
+            "Value": "Tesouros02Tecidos02Fardos.json",
+            "Quantidade de Fardos de 0,5Kg": {
+                "1-2": {
+                    "1": "6 unidades",
+                    "2": "9 unidades",
+                    "3": "12 unidades",
+                    "4": "15 unidades",
+                    "5": "18 unidades",
+                    "6": "21 unidades",
+                    "7": "24 unidades",
+                    "8": "27 unidades",
+                    "9": "30 unidades",
+                    "10": "33 unidades",
+                    "11": "36 unidades"
+                },
+                "3": {
+                    "1": "12 unidades",
+                    "2": "18 unidades",
+                    "3": "24 unidades",
+                    "4": "30 unidades",
+                    "5": "36 unidades",
+                    "6": "42 unidades",
+                    "7": "48 unidades",
+                    "8": "54 unidades",
+                    "9": "60 unidades",
+                    "10": "66 unidades",
+                    "11": "72 unidades"            
+                },
+                "4": {
+                    "1": "18 unidades",
+                    "2": "27 unidades",
+                    "3": "36 unidades",
+                    "4": "45 unidades",
+                    "5": "54 unidades",
+                    "6": "63 unidades",
+                    "7": "72 unidades",
+                    "8": "81 unidades",
+                    "9": "90 unidades",
+                    "10": "99 unidades",
+                    "11": "114 unidades"            
+                }
             }
-        },
-        "20-21": {
-            "Value": [
-                "Couro, Comum, $150, 25Kg",
-                "Por rolo de 9m²"
-            ],
-            "Animal": {
-                "1": "Foca",
-                "2": "Macaco",
-                "3": "Coelho",
-                "4": "Raposa",
-                "5": "Cabra",
-                "6": "Cavalo",
-                "7": "Boi",
-                "8": "Cervo",
-                "9": "Alce",
-                "10": "Rena",
-                "11": "Antílope",
-                "12": "Cabra Íbex"
-            }
-        },
-        "22-23": {
-            "Value": [
-                "Couro, Exótico, $250, 25Kg",
-                "Por rolo de 9m²"
-            ],
-            "Animal": {
-                "1": "Zibelina",
-                "2": "Arminho",
-                "3": "Jaguar",
-                "4": "Leão",
-                "5": "Tigre",
-                "6": "Lobo",
-                "7": "Urso",
-                "8": "Wyvern",
-                "9": "Lobo Atroz",
-                "10": "Urso das Cavernas",
-                "11": "Macaco Gigante",
-                "12": "Cobra Gelada"
-            }
-        },
-        "24-25": [
-            "Couro de Escamas, $275, 25Kg",
-            "Por rolo de 9m²",
-            "Peixe ou répteis"
-        ],
-        "26-27": {
-            "Value": [
-                "Couro, Contrabando, $500, 12,5Kg",
-                "Por rolo de 9m²",
-                "Feito de seres sapientes",
-                "-4 Reação com a raça"
-            ],
-            "Raça": {
-                "1": "Povo Gato",
-                "2": "Coleópteros",
-                "3": "Devorador de Corpos",
-                "4": "Escuros",
-                "5-6": "Anão",
-                "7-8": "Todos os Elfos",
-                "9": "Meio-Elfo",
-                "10": "Alto Elfo",
-                "11": "Elfo das Montanhas",
-                "12": "Elfo Marinho",
-                "13": "Elfo das Sombras",
-                "14": "Elfo Alado",
-                "15": "Elfo da Floresta",
-                "16-17": "Todas as Fadas",
-                "18": "Fauno",
-                "19": "Leprechaun",
-                "20": "Ninfa",
-                "21": "Pixie",
-                "22": "Gárgula",
-                "23-24": "Gnomo",
-                "25-27": "Todos os Goblinóides",
-                "28": "Goblin",
-                "29": "Meio-Orc",
-                "30": "Hobgoblin",
-                "31": "Orc",
-                "32": "Halfling",
-                "33-34": "Todos os Meio Espíritos",
-                "35": "Celestial",
-                "36": "Cria de Coisa Ancestral",
-                "37": "Infernal",
-                "38-41": "Humano",
-                "42": "Todos os Infundidos",
-                "43": "Infundido pelo Ar",
-                "44": "Infundido pela Terra",
-                "45": "Infundido pelo Fogo",
-                "46": "Infundido pela Água",
-                "47": "Minotauro",
-                "48": "Meio-Ogro",
-                "49": "Ogro",
-                "50": "Todos os Reptilianos",
-                "51": "Draconiano",
-                "52": "Homem-Lagarto",
-                "53": "Troll",
-                "54": "Homem Selvagem"
-            }
-        },
-        "28": [
-            "Couro, Outro Mundo, $1.000, 25Kg",
-            "Por rolo de 9m²",
-            "Seres sobrenaturais",
-            "Cavalos angelicais, tigres astrais, etc"
-        ],
-        "29": [
-            "Fibra, Linho, $0,25, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "30": [
-            "Fibra, Seda, $0,75, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "31": [
-            "Fibra, Seda Selvagem, $0,65, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "32": [
-            "Fibra, Lã, $0,20, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "33": [
-            "Fibra, Lã de Pashmina, $0,60, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "34": [
-            "Fibra, Seda de Aranha Gigante, $10, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ],
-        "35": [
-            "Fibra, Outro Mundo, $7, 0,5Kg",
-            "Por fardo de 0,5Kg"
-        ]
-    },
-    "Quantidade de Rolos de 9m²": {
-        "1-2": {
-            "1": "2 unidades",
-            "2": "3 unidades",
-            "3": "4 unidades",
-            "4": "5 unidades",
-            "5": "6 unidades",
-            "6": "7 unidades"
-        },
-        "3": {
-            "1": "4 unidades",
-            "2": "6 unidades",
-            "3": "8 unidades",
-            "4": "10 unidades",
-            "5": "12 unidades",
-            "6": "14 unidades"
-        },
-        "4": {
-            "1": "12 unidades",
-            "2": "18 unidades",
-            "3": "24 unidades",
-            "4": "30 unidades",
-            "5": "36 unidades",
-            "6": "42 unidades"
         }
     },
-    "Quantidade de Fardos de 0,5Kg": {
-        "1-2": {
-            "1": "6 unidades",
-            "2": "9 unidades",
-            "3": "12 unidades",
-            "4": "15 unidades",
-            "5": "18 unidades",
-            "6": "21 unidades",
-            "7": "24 unidades",
-            "8": "27 unidades",
-            "9": "30 unidades",
-            "10": "33 unidades",
-            "11": "36 unidades"
-        },
-        "3": {
-            "1": "12 unidades",
-            "2": "18 unidades",
-            "3": "24 unidades",
-            "4": "30 unidades",
-            "5": "36 unidades",
-            "6": "42 unidades",
-            "7": "48 unidades",
-            "8": "54 unidades",
-            "9": "60 unidades",
-            "10": "66 unidades",
-            "11": "72 unidades"            
-        },
-        "4": {
-            "1": "18 unidades",
-            "2": "27 unidades",
-            "3": "36 unidades",
-            "4": "45 unidades",
-            "5": "54 unidades",
-            "6": "63 unidades",
-            "7": "72 unidades",
-            "8": "81 unidades",
-            "9": "90 unidades",
-            "10": "99 unidades",
-            "11": "114 unidades"            
-        },
-    "Cor Primária": "cor.json",
-    "Cor Secundária": "cor.json"
-    }
+    "Cor Primária": "cor.json"
 }
