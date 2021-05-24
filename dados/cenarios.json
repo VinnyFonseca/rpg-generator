@@ -116,5 +116,194 @@
         "73-80": "Shimmering (Moisture)",
         "81-88": "Smoke (at the Ceiling)",
         "89-00": "Smoke (Drifting Plumes)"
+    },
+    "Corrente de Ar": {
+        "01-07": "Breeze, Intermittent",
+        "08-14": "Breeze, Slight",
+        "15-21": "Breeze, Slight and Damp",
+        "22-28": "Cold Current",
+        "29-35": "Downdraft, Slight",
+        "36-42": "Downdraft, Strong",
+        "43-60": "Still Air",
+        "61-65": "Still Air, Cold(er)",
+        "66-70": "Still Air, Cool(er)",
+        "71-75": "Still Air, Hot(ter)",
+        "76-80": "Still Air, Warm(er)",
+        "81-85": "Updraft, Slight",
+        "86-90": "Updraft, Strong",
+        "91-95": "Wind, Strong and Constant",
+        "96-98": "Wind, Strong and Gusting",
+        "99-00": "Wind, Strong and Moaning"
+    },
+    "Plantas e Formas de Vida Menores": {
+        [01-10] Algae
+[11-20] Fungus
+[21-30] Lichen
+[31-40] Mold
+[41-50] Moss
+[51-60] None
+[61-65] Plants (Netherworld or Magical)
+[66-70] Slime
+[71-80] Thorns / Thorny Growths
+[81-90] Tree Roots
+[91-00] Vines / Creepers / Tanglers
+    },
+    "Cheiros": {
+        [01] Acrid
+[02] Alcohol (Spilled)
+[03] Ammonia
+[04] Baking Bread
+[05] Blood / Boiling Blood
+[06] Brewing Potions / Chemicals
+[07] Brimstone (Sulfurous)
+[08-09] Burning Flesh
+[10-12] Burning Torches or Firewood
+[13-15] Burning Wood
+[16-18] Chlorine
+[19-21] Cooking Food
+[22-24] Damp Fur
+[25-27] Dank and Moldy
+[28-30] Death and Decay
+[31-33] Decaying Flesh
+[34-36] Dust
+[37-39] Earth
+[40-42] Enticing and Indescribable
+[43-45] Fetid
+[46] Fish
+[47] Flowers or Herbs
+[48] Foetor (Lovecraftian)
+[49-50] Fragrant / Incense
+[51] Fresh Food
+[52-54] Garbage and Refuse
+[55-57] Manure / Dung / Offal
+[58-60] Metallic
+[61-63] Methane
+[64-66] Mildew
+[67-69] Mold
+[70-72] Musk / Musky Beasts
+[73-75] Ozone / Discharged Magic
+[76-78] Rotting Meat
+[79-81] Rotting Vegetation
+[82-84] Salty and Wet
+[85-87] Smoke
+[88-90] Spices
+[91-94] Stale and Fetid
+[95-97] Urine
+[98-00] Vinegar
+    },
+    "Sons Intermitentes": {
+        [01] Banging or Barking
+[02] Beast Noises or Beating of Wings
+[03] Bellowing
+[04] Bells or Birdsong
+[05] Bong
+[06] Bubbling
+[07] Buzzing (Insects?)
+[08] Cackling
+[09] Chains Rattling
+[10] Chanting
+[11] Chiming
+[12] Chirping
+[13] Chittering or Chopped Wood
+[14] Clanging
+[15] Clanking
+[16] Clashing Metal
+[17] Clicking or Clockwork
+[18] Collapsing Rubble / Falling Stones
+[19] Combat (Distant)
+[20] Conversation (Language Dependent
+upon Denizens)
+[21] Coughing or Crackling
+[22] Creaking Doors or Croaking (Frogs?)
+[23] Crunching or Crying
+[24] Door Closing or Slamming
+[25] Dripping
+[26] Drums Beating
+[27] Earth Tremors
+[28] Echoes
+[29] Explosion (Distant) and Rumbling
+[30] Faint Footsteps and Whispers or Fire
+Crackling
+[31-32] Flapping Wings or Footsteps
+(Random Directions)
+[33] Footsteps Ahead
+[34] Footsteps Approaching
+[35] Footsteps Behind
+[36] Footsteps Receding
+[37] Footsteps to One Side
+[38] Giggling
+[39] Glass Shattering
+[40] Gong
+[41] Grating
+[42] Grinding Stone
+[43] Groaning
+[44] Growling
+[45] Grunting
+[46] Gurgling
+[47] Hammering or Heavy Dragged Object
+[48] Hinges Squeaking
+[49] Hissing
+[50] Hooting or Hooves Clattering
+[51] Horn Sounding
+[52] Howling
+[53] Humming
+[54] Jingling
+[55] Knocking
+[56] Laughter or Leaves Rustling
+[57] Machinery or Marching Feet
+[58] Moaning or Monster Noises
+[59] Murmuring
+[60] Music or Musical Instrument
+[61] Nothing, Dead Silence
+[62] Popping (Electricity?) or Pounding
+[63] Purring
+[64] Rainfall or Rats Squeaking
+[65] Rattling
+[66] Ringing or Ripping Paper
+[67] Roaring
+[68] Rustling
+[69] Scrabbling
+[70] Scraping
+[71] Scratching
+[72] Screaming
+[73] Scuffling or Scuttling
+[74] Shouting / Yelling
+[75] Shrieking
+[76] Shuffling
+[77] Singing
+[78] Slamming Doors (Repeatedly, Distant)
+[79] Slithering
+[80] Snapping or Sneezing
+[81] Snoring or Snorting
+[82] Sobbing or Someone / Something
+Choking
+[83] Something Dropped (Repeatedly?)
+[84] Splashing
+[85] Splintering
+[86] Squeaking or Squealing
+[87] Stone Grating or Sliding
+[88] Tapping
+[89] Thud or Thumping
+[90] Thunder (or Similar Reverberation)
+[91] Ticking
+[92] Tinkling
+[93] Trickling
+[94] Twanging
+[95] Waterfall
+[96] Whining
+[97] Whispering
+[98] Whistling
+[99] Wind
+[00] Wood Splintering
+    },
+    "Tipo de Dungeon": {
+        [01-12] Consult table Cavern Areas (I)
+[13-24] Consult table Cavern Areas (II)
+[25-40] Consult table Dungeon Areas
+[41-52] Consult table Manor House Areas (I)
+[53-64] Consult table Manor House Areas (II)
+[65-76] Consult table Stronghold Areas
+[77-88] Consult table Temple Areas
+[89-00] Consult table Tomb Areas
     }
 }
