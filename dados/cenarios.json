@@ -70,5 +70,51 @@
         "76-77": "Warrens",
         "78": "Waterfall Caves",
         "79-00": "Roll twice, ignoring results of 79 or higher"
+    },
+    "Iluminação Geral": {
+        "01-05": "Blindingly Bright (30’ sight range unless wearing some form of eye protection, such as a visored great helm)",
+        "06-10": "Bright (technically limitless sight range underground)",
+        "11-20": "Well-Lit (180’ sight range)",
+        "21-40": "Dim / Shadows (60’ sight range)",
+        "41-70": "Near Dark (30’ sight range, unless using a light source or magic)",
+        "71-90": "Darkness (10’ sight range, unless using a light source or magic)",
+        "91-00": "Utter Darkness (0’ sight range, unless using a light source or magic)"
+    },
+    "Fonte de Luz": {
+        "01-04": "Asbestinon Lamps",
+        "05-08": "Braziers",
+        "09-13": "Candles / Candelabras",
+        "14-18": "Fire Cauldrons",
+        "19-23": "Fire Pits",
+        "24-28": "Fireplaces",
+        "29-33": "Fires & Reflecting Mirrors",
+        "34-38": "Lanterns & Hanging Lanthorns",
+        "39-43": "Magical Crystals",
+        "44-50": "Magical Light & Reflecting Mirrors",
+        "51-55": "Magical Light (Continual Light etc.)",
+        "56-57": "Natural Gas Jets (Volcanic Vents etc.)",
+        "58-65": "None (or GM’s Concept)",
+        "66-72": "Oil Lamps",
+        "73-80": "Phosphorescent Fungi",
+        "81-84": "Phosphorescent Pools",
+        "85": "Phosphorescent Spheres (Hanging from Chains)",
+        "86": "Phosphorescent Vapor",
+        "87-88": "Sunlight & Reflecting Mirrors",
+        "89-90": "Sunlight (or Magical Light) Shafts",
+        "91-00": "Torches"
+    },
+    "Claridade do Ar": {
+        "01-08": "Clear",
+        "09-16": "Floating Ash",
+        "17-24": "Floating Cinders",
+        "25-32": "Floating Dust",
+        "33-40": "Floating Pollen or Spores",
+        "41-48": "Fog (to the Ceiling)",
+        "49-56": "Mist or Haze (Ankle-Level)",
+        "57-64": "Mist or Haze (Neck-Level)",
+        "65-72": "Mist or Haze (Waist-Level)",
+        "73-80": "Shimmering (Moisture)",
+        "81-88": "Smoke (at the Ceiling)",
+        "89-00": "Smoke (Drifting Plumes)"
     }
 }
