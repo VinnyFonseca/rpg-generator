@@ -305,5 +305,925 @@ Choking
 [65-76] Consult table Stronghold Areas
 [77-88] Consult table Temple Areas
 [89-00] Consult table Tomb Areas
+    },
+    "Cavern Areas I": {
+        [01-02] Acidic Cave,
+        [03] Adamantite Delve,
+        [04] Aerie,
+        [05-06] Antecavern,
+        [07-08]
+Arachnid Cave, [09-10] Arena Cavern
+[11-12] Blocked Cavern, [13] Bone-Filled
+Cavern, [14] Boulder Cave, [15] Burrow, [16-
+17] Cave [18] Cave of Ancestors, [19-20]
+Cave of Ashes
+[21-22] Cave of Bones, [23-24] Cave of
+Columns, [25-26] Cave of Husks, [27-28]
+Cave of Paintings, [29-30] Cave of Pools
+[31-32] Cave of Skulls, [33-34] Cave of the
+Dead, [35-36] Cavern, [37-38] Cavern
+Temple, [39-40] Cavern Tomb
+[41-42] Cavity, [43-44] Cesspit Cavern, [45-
+46] Chasm, [47-48] Chiming Cave, [49-50]
+Clay Cave
+[51-52] Coal Cavern, [53-54] Collapsed
+Cavern, [55] Colony, [56] Copper Cave, [57-
+58] Crevice, [59-60] Crumbling Cave
+[61-62] Crystal Cave, [63-64] Crystal
+Garden, [65-66] Cul-de-Sac, [67-68] Cyst,
+[69-70] Den
+[71] Echo Chamber, [72] Egg Chamber, [73-
+74] Elemental Vortex, [75-76] Enchanted
+Grotto, [77-78] Excavation, [79-80] Fissure
+[81-82] Flooded Cave, [83-84] Food Cave,
+[85-86] Fungal Garden, [87-88] Gallery
+(Cave), [89-90] Gas-Filled Cavern
+[91] Gem Lode, [92] Gemstone Cave, [93-94]
+Geothermal Cave, [95-96] Geyser Cave, [97-
+98] Glittering Cave, [99] Gold Cave, [00]
+Grand Cavern
+    },
+    "Cavern Areas II": {
+        [01-02] Grotto, [03-04] Guano Cave, [05]
+Gypsum Cave, [06] Hatchery, [07] Hive, [08-
+09] Hollow, [10] Ice Cave
+[11] Idol Grotto, [12] Infested Cave, [13]
+Insect Cave, [14] Iron Cave, [15] Jewel
+Cavern, [16] Kennel Cave, [17] Labyrinthine
+Cavern, [18-19] Lair, [20] Lava Cave
+[21-22] Limestone Cavern, [23] Littered
+Cave, [24] Low-Ceilinged Cave, [25] Magma
+Cave, [26] Metal Lode, [27-28] Mined
+Cavern, [29-30] Mineral Lode
+[31] Misty Cavern, [32] Mithril Delve, [33]
+Mold-Filled Cavern, [34] Moss-Filled Cave,
+[35] Mud Cave, [36] Nest, [37-38] Niched
+Cavern, [39] Oracular Cave, [40] Painted
+Cave
+[41-42] Phosphorescent Cavern, [43-44]
+Pool, [45] Puffball Cave, [46-47] Quarry, [48-
+49] Refused-Filled Cavern, [50] Reservoir
+[51] Roost, [52] Sacred Cavern, [53-54] Salt
+Cave, [55-56] Sandstone Cave, [57] Secret
+Grotto, [58] Shunned Cavern, [59] Silver
+Cave, [60] Sinkhole
+[61-62] Slime Cavern, [63-64] Sloping Cave,
+[65-66] Spur Cavern, [67-68] Stalactite
+Cavern, [69-70] Stalagmite Cavern
+[71-72] Steam Cave, [73-74] Storage Cave,
+[75-76] Stream Cavern, [77-78] Submerged
+Cave, [79] Tin Cave, [80] Treasure Cave
+[81-82] Underground Lake, [83-84]
+Underground River, [85-86] Underground
+Swamp, [87-88] Underwater Cave, [89]
+Unstable Cavern, [90] Vaulted Cavern
+[91-92] Verdigris Cavern, [93-94] Warren,
+[94-95] Water Cave, [96] Waterfall Cavern,
+[97-98] Webbed Cave, [99] Wharf Cavern,
+[00] Whirlpool Cave
+    },
+    "Dungeon Areas": {
+        [01] Abattoir, [02] Annex, [03] Arena, [04]
+Ash Pit, [05] Auxiliary Room, [06] Beast Pit,
+[07] Bone Pit, [08] Cell, [09] Cell Block, [10]
+Cesspit
+[11] Cesspool, [12] Cistern, [13] Cistern
+Room, [14] Collapsed Room, [15] Combat
+Pit, [16] Control Room, [17] Cubicle, [18]
+Dead End, [19] Delve, [20] Dueling Pit
+[21] Enclave, [22] Enclosure, [23]
+Excavation Chamber, [24] Experimentation
+Chamber, [25] False Treasure Vault, [26]
+Fire Pit, [27] Flooded Room, [28] Gaol, [29]
+Gauntlet, [30] Gladiatorial Pit
+[31] Hall of Doors, [32] Haunt, [33] Hideout,
+[34] Hiding Place, [35] Holding Tank, [36]
+Illusory Room, [37] Inquisition Chamber,
+[38] Interrogation Chamber, [39] Jail, [40]
+Junk Room
+[41] Labyrinth, [42-43] Lair, [44] Maze, [45]
+Mechanical Room, [46] Mine, [47] Monster
+Pit, [48] Mud-Filled Room, [49] Mud Pit, [50]
+Oubliette
+[51] Pen, [52] Priest Hole, [53] Prison, [54]
+Prison Cell, [55] Prison Chamber, [56]
+Proving Ground, [57] Pump Room, [58]
+Refuse Pit, [59] Revolving Chamber, [60]
+Room of Pools
+[61] Room of Slaughter, [62] Room of
+Unknown Purpose, [63] Rubble-Filled Room,
+[64] Scrapheap, [65] Secret Lair, [66] Secret
+Room, [67] Sewer, [68] Slave Chamber, [69]
+Slave Pit, [70] Sludge Pit
+[71] Spawning Pool, [72] Storeroom
+(Alchemical), [73] Storeroom (Construction),
+[74] Storeroom (Failed Experiments), [75]
+Storeroom (Potion Bottles), [76] Storeroom
+(Reagents), [77-78] Strongroom, [79]
+Submerged Room, [80] Summoning
+Chamber
+[81] Tar Pit, [82] Teleportation Chamber,
+[83] Terminus, [84] Torture Chamber, [85]
+Treasure Chamber, [86] Treasure Vault, [87]
+Undervault, [88-89] Unfinished Chamber,
+[90] Vault
+[91-92] Walled-Up Chamber, [93] Warning
+Chamber, [94] Well, [95-96] Well Room, [97]
+Workpit, [98-00] Dual Function (roll twice)
+    },
+    "Manor House Areas I": {
+        [01-02] Alcove, [03-04] Ale Cellar, [05-06]
+Apartment, [07-08] Apothecary, [09-10]
+Aquarium
+[11-12] Arboretum, [13-14] Art Gallery, [15-
+16] Artisan’s Chamber, [17-18] Atrium, [19-
+20] Attic
+[21-22] Aviary, [23-24] Bakery, [25-26]
+Ballroom, [27-28] Banquet Hall, [29-30]
+Basement
+[31-32] Bath (or Bathroom), [33-34]
+Bedchamber, [35-36] Bedroom, [37-38]
+Bestiary, [39-40] Bottlery
+[41-42] Boudoir, [43-44] Buttery, [45-46]
+Cellar, [47-48] Cheese Cellar, [49-50]
+Classroom
+[51-52] Cloak Room, [53-54] Closet, [55-56]
+Coal Room, [57-58] Crafter’s Room, [59-60]
+Crawlspace
+[61-62] Dayroom, [63-64] Dining Hall, [65-
+66] Dining Room, [67-68] Domed Room, [69-
+70] Drawing Room
+[71-72] Dressing Room, [73-74] Enclosed
+Loggia, [75-76] Foyer, [77-78] Fresco Room,
+[79-80] Gallery (Display)
+[81-82] Gambling Hall, [83-84] Game Room,
+[85-86] Garden, [87-88] Great Room, [89-
+90] Greenhouse
+[91-92] Guest Chamber, [93-94] Hall, [95-
+96] Hall of Mirrors, [97-98] Harem, [99-00]
+Herbarium
+    },
+    "Manor House Areas II": {
+        [01] Hostel, [02-03] Hunters’ Hall, [04-05]
+Kitchen, [06-07] Laboratory, [08-09]
+Landing, [10-11] Larder
+[12] Launderer’s Room, [13-14] Library, [15]
+Light Well, [16-17] Living Room, [18-19]
+Lounge, [20] Menagerie
+[21-22] Museum, [23-24] Mushroom Cellar,
+[25-26] Music Room, [27-28] Nursery, [29-
+30] Observatory
+[31-32] Office, [33] Oil Cellar, [34] Oil-Press
+Room, [35-36] Overlook, [37-38] Pantry,
+[39-40] Parlor
+[41] Planetarium, [42] Poison Garden, [43]
+Potionry, [44-45] Privy, [46-47] Receiving
+Room, [48-49] Reception Chamber, [50-51]
+Retreat
+[52-53] Root Cellar, [54-55] Salon, [56-57]
+Salt Room, [58-59] Sick Room, [60-61]
+Sitting Room
+[62-63] Solarium, [64-65] Statuary, [66-67]
+Storeroom (Alcohol / Wine), [68] Storeroom
+(Butchered Meat), [69-70] Storeroom (Char
+Cellar)
+[71-72] Storeroom (Cheese), [73-74]
+Storeroom (Dry Goods), [75-76] Storeroom
+(Herbs and Spices), [77] Storeroom (Ice), [78-
+79] Study, [80-81] Sub-Basement
+[82-83] Suite, [84] Theater, [85-86] Trophy
+Room, [87-88] Waiting Room, [89-90]
+Wardrobe Room
+[91-92] Warming Room, [93-94] Wine Cellar,
+[95] Wine-Press Room, [96-97] Withdrawing
+Room, [98-99] Workroom, [00] Zoo
+    },
+    "Stronghold Areas": {
+        [01] Access Chamber, [02-03] Antechamber,
+[04] Armorial Hall, [05-06] Armory, [07]
+Arsenal, [08] Audience Chamber, [09]
+Audience Hall, [10] Bailey
+[11] Barbican, [12-13] Barracks, [14]
+Bastion, [15] Cache Chamber, [16] Clinic,
+[17-18] Common Room, [19] Council
+Chamber, [20] Court
+[21-22] Courtyard, [23] Depository, [24]
+Domicile, [25] Donjon, [26] Dormitory, [27]
+Drill Hall, [28] Entry Chamber, [29] Entry
+Hall, [30] Exercise Room
+[31] Feast Hall, [32] Forecourt, [33] Forge,
+[34] Garrison, [35] Gatehouse, [36] Goods
+Hall, [37-38] Granary, [39] Great Hall, [40]
+Guard Hall
+[41] Guard Post, [42-43] Guardroom, [44]
+Gymnasium, [45] Hall of Challenge, [46] Hall
+of Honor, [47] Hall of Tapestries, [48]
+Icehouse, [49] Keep, [50] Kennel
+[51] Knights’ Hall, [52] Map Room, [53]
+Meeting Room, [54] Mess Hall, [55] Mews
+and Stable, [56] Moat (or Motte), [57]
+Outpost, [58] Portcullis Chamber, [59]
+Protective Ditch, [60] Quarters
+[61] Redoubt, [62] Royal Chamber, [63]
+Scullery, [64] Secret Guardroom, [65]
+Seraglio, [66] Smelter, [67-68] Smithy, [69]
+Squires’ Hall, [70] Stable
+[71] State Chamber, [72] Stockpile Room,
+[73] Storage Chamber, [74-75] Storeroom
+(Armor), [76-77] Storeroom (Food), [78]
+Storeroom (Lumber), [79] Storeroom
+(Masonry), [80] Storeroom (Oil)
+[81] Storeroom (Salt), [82] Storeroom
+(Smoked Meats], [83] Storeroom (Textiles),
+[84-85] Storeroom (Tools), [86-87]
+Storeroom (Water), [88-89] Storeroom
+(Weapons), [90] Throne Room
+[91] Training Room, [92] Treasury, [93]
+Trophy Hall, [94] Turret, [95] Utility Room,
+[96] Vaulted Hall, [97] Ward, [98]
+Watchroom, [99] Winch Room, [00]
+Workshop
+    },
+    "Temple Areas": {
+        [01] Amphitheater, [02-03] Ambulatory,
+[04] Apse, [05-06] Archive, [07]
+Assemblage, [08-09] Atrium, [10] Augury
+Chamber
+[11] Belfry, [12] Cascade Hall, [13] Celestial
+Hall, [14-15] Ceremonial Chamber, [16]
+Chamber of Revelation, [17] Chancel, [18-
+19] Chantry, [20-21] Chapel
+[22] Chapter House, [23] Choir, [24]
+Cloister, [25-26] Communal Quarters, [27]
+Confessional, [28-29] Conjuring Chamber,
+[30] Convocation Room
+[31-32] Divination Chamber, [33-34] Fane,
+[35-36] Forbidden Chamber, [37-38]
+Fountain Room, [39] Hall of Assembly, [40]
+Hall of Contemplation
+[41] Hall of Healing, [42] Hall of Offerings,
+[43] Hall of Repentance, [44] Hall of Runes,
+[45-46] Hall of Statuary, [47] Hypostyle
+Hall, [48] Infirmary, [49-50] Inner Chamber
+[51] Inner Ward, [52-53] Inscription
+Chamber, [54-55] Meditation Chamber,
+[56] Memorial Chamber, [57] Monument
+Chamber, [58] Nave, [59] Niched Room,
+[60] Novitiate
+[61] Obelisk Chamber, [62] Observation
+Chamber, [63-64] Offering Chamber, [65]
+Oracular Chamber, [66] Purification
+Chamber, [67-68] Refectory, [69] Reflecting
+Pool, [70] Reflecting Room
+[71] Reliquary, [72-73] Ritual Hall, [74]
+Robing Room, [75] Room of Revelation, [76]
+Runic Chamber, [77-78] Sacrificial
+Chamber, [79] Sacrificial Pool, [80] Sacristy
+[81-82] Sanctuary, [83] Sanctum, [84]
+Sanctum Sanctorum, [85] Scriptorium, [86]
+Seminary, [87-88] Shrine, [89-90]
+Storeroom (Ceremonial)
+[91-92] Temple, [93] Transept, [94-95]
+Undercroft, [96] Vestiary, [97-98] Vestibule,
+[99-00] Vestry
+    },
+    "Tomb Areas": {
+        [01-02] Ancestral Chamber, [03-04] Barrow,
+[05-06] Beast Crypt, [07-08] Bone Pit, [09-
+10] Burial Chamber
+[11] Buried Longship, [12-15] Catacombs,
+[16-17] Chamber of Biers, [18-19] Charnel
+House, [20] Crematorium
+[21-23] Crypt, [24-25] Defiled Tomb, [26-27]
+Delve, [28-29] Drowning Pool, [30-31] Dry
+Well
+[32-33] Embalming Chamber, [34-36] False
+Tomb, [37] False Treasure Room, [38-40]
+Forbidden Chamber
+[41-42] Hall of Bones, [43-44] Hall of
+Immortal Judgment, [45-46] Hall of
+Mourners, [47-48] Hall of Resurrection, [49-
+50] Hall of Reverence
+[32-33] Embalming Chamber, [34-36] False
+Tomb, [37] False Treasure Room, [38-40]
+Forbidden Chamber
+[41-42] Hall of Bones, [43-44] Hall of
+Immortal Judgment, [45-46] Hall of
+Mourners, [47-48] Hall of Resurrection, [49-
+50] Hall of Reverence
+    },
+    "Evocative Random Rooms Adjective": {
+        01] Abandoned, Aberrant, Abhorrent,
+Abjuration, Abominable, Abomination’s,
+Abyssal, Accursed, Acephalus, Acid,
+Acolytes’, Adamantine, Adept’s, Airless,
+Alabaster, Alarum, Alchemical
+[02] Alchemist’s, Alcoved, Alien, Altar,
+Amber, Amethyst, Amphisbaena, Ancestors’,
+Ancestral, Ancient, Androsphinx, Angelic,
+Animated, Animating, Antediluvian,
+Arachnid
+[03] Arcane, Arcanist’s, Archival,
+Archmage’s, Archon’s, Argent, Armorial,
+Armsmen’s, Ashen, Assassin’s, Astral,
+Augur’s, Augury, Avenger’s
+[04] Azure, Baffling, Baleful, Barbarian’s,
+Bardic, Baron’s, Baronial, Barrier, Basalt,
+Basilisk, Beast, Beast Master’s, Beastmen’s,
+Beetle
+[05] Beguiler’s, Behemoth, Beholder’s,
+Beithir, Benighted, Berserkers’, Besieged,
+Betrayer’s, Bewildering, Bewitching, Bizarre,
+Black, Blackguard’s, Bladed, Blasphemers’
+[06] Blasphemous, Bleak, Bleeding, Blessed,
+Blighted, Blinding, Blocked, Bloodletter’s,
+Bloodstained, Boar, Bodyguard’s, Boiling,
+Bone, Bridged, Boreal
+[07] Bottomless, Boulder, Brazen, Breached,
+Bridged, Brimstone, Bronze, Bugbear,
+Burial, Buried, Burning, Butcher’s,
+Cabalistic, Cage, Cairn, Cambion’s
+[08] Cannibals’, Captain’s, Carrion, Carved,
+Cascade, Cavalier’s, Celestial, Centaur,
+Centipede, Centurion’s, Ceremonial,
+Champion’s, Chaos, Chaotic, Charlatan’s,
+Charnel
+[09] Chieftain’s, Chimaera, Chiming,
+Chronicler’s, Chthonic, Cimmerian, Cleric’s,
+Clerical, Clock, Clockwork, Cloud Giant’s,
+Clouded, Cobalt, Cobra, Cockatrice, Coffin,
+Coffin-Filled, Collapsed
+[10] Collapsing, Colossal, Colossus,
+Commander’s, Concealed, Conclave’s,
+Confining, Confounding, Conjurer’s,
+Conjuring, Constricted, Constricting,
+Contemplator’s, Copper, Coral, Corpse,
+Corpse-Filled, Corroded
+[11] Corrosive, Corrupted, Corrupting,
+Corruptor’s, Council, Count’s, Coven’s,
+Crimson, Criosphinx, Croaking, Crocodile,
+Crone’s, Crooked, Crows’, Cruel, Crumbling,
+Crushing, Crystal
+[12] Crystalline, Cult, Cultic, Cultists’,
+Cursed, Cutthroats’, Cyclopean, Cyclopes’,
+Dagonian, Dank, Dark, Dark Elven,
+Darkening, Darkling, Daunting, Dead,
+Deadly, Death
+[13] Deathless, Deathly, Deathtrap,
+Decadent, Decayed, Decaying, Deceiving,
+Deceptive, Decrepit, Deep, Deep Ones’,
+Deeping, Defended, Defenders’, Defiled,
+Defilers’, Delvers’
+[14] Demigod’s, Demolished, Demon, Demon
+Slayer’s, Demon Spawns’, Demoniac,
+Demonic, Depthless, Deserted, Deserters’,
+Desolate, Destiny, Destroyed, Destroyer’s,
+Deva, Devastated, Devastator’s
+[15] Devil, Devil Slayer’s, Devil Spawns’,
+Diabolical, Diamond, Dim, Dimensional,
+Dire, Disciples’, Disenchanter’s,
+Disenchanting, Disintegrating, Dismal,
+Displacer, Distorted, Divination, Diviner’s,
+Djinn, Dolmen, Dolorous
+Burial, Buried, Burning, Butcher’s,
+Cabalistic, Cage, Cairn, Cambion’s
+[08] Cannibals’, Captain’s, Carrion, Carved,
+Cascade, Cavalier’s, Celestial, Centaur,
+Centipede, Centurion’s, Ceremonial,
+Champion’s, Chaos, Chaotic, Charlatan’s,
+Charnel
+[09] Chieftain’s, Chimaera, Chiming,
+Chronicler’s, Chthonic, Cimmerian, Cleric’s,
+Clerical, Clock, Clockwork, Cloud Giant’s,
+Clouded, Cobalt, Cobra, Cockatrice, Coffin,
+Coffin-Filled, Collapsed
+[10] Collapsing, Colossal, Colossus,
+Commander’s, Concealed, Conclave’s,
+Confining, Confounding, Conjurer’s,
+Conjuring, Constricted, Constricting,
+Contemplator’s, Copper, Coral, Corpse,
+Corpse-Filled, Corroded
+[11] Corrosive, Corrupted, Corrupting,
+Corruptor’s, Council, Count’s, Coven’s,
+Crimson, Criosphinx, Croaking, Crocodile,
+Crone’s, Crooked, Crows’, Cruel, Crumbling,
+Crushing, Crystal
+[12] Crystalline, Cult, Cultic, Cultists’,
+Cursed, Cutthroats’, Cyclopean, Cyclopes’,
+Dagonian, Dank, Dark, Dark Elven,
+Darkening, Darkling, Daunting, Dead,
+Deadly, Death
+[13] Deathless, Deathly, Deathtrap,
+Decadent, Decayed, Decaying, Deceiving,
+Deceptive, Decrepit, Deep, Deep Ones’,
+Deeping, Defended, Defenders’, Defiled,
+Defilers’, Delvers’
+[14] Demigod’s, Demolished, Demon, Demon
+Slayer’s, Demon Spawns’, Demoniac,
+Demonic, Depthless, Deserted, Deserters’,
+Desolate, Destiny, Destroyed, Destroyer’s,
+Deva, Devastated, Devastator’s
+[15] Devil, Devil Slayer’s, Devil Spawns’,
+Diabolical, Diamond, Dim, Dimensional,
+Dire, Disciples’, Disenchanter’s,
+Disenchanting, Disintegrating, Dismal,
+Displacer, Distorted, Divination, Diviner’s,
+Djinn, Dolmen, Dolorous
+[16] Domed, Doom, Doom Bringer’s,
+Doomed One’s, Doppelganger, Draconian,
+Dragon’s, Dragon Slayer’s, Dragon Spawns’,
+Drain, Drawbridge, Dread, Dream, Dream
+Eater’s, Dreamland, Dreamlanders’,
+Dripping, Drowned Ones’, Drowning,
+Druid’s
+[17] Druidic, Duelist’s, Duke’s, Dusk,
+Dusky, Dust, Dust-Filled, Dusty, Dvergar,
+Dwarf Lord’s, Dwarven, Dweomer Crafter’s,
+Dweomered, Dwimmerlaik, Dystopian
+[18] Earthen, Ebon, Ebony, Echo, Echoing,
+Eerie, Egg, Eidolon, Elaborate, Eld, Elder’s,
+Elder Thing’s, Eldjotnar, Eldritch, Elemental
+[19] Elementalist’s, Elevator, Elf Lord’s,
+Elven, Elysian, Emerald, Emperor’s,
+Empyrean, Enchanted, Enchanter’s,
+Enchanting, Enclosed, Encrusted, Endless,
+Enigmatic, Enshrouded, Ensnaring,
+Enthralling, Entropic
+[20] Entropy, Erinyes, Eternal, Ethereal,
+Etin, Evil, Evocation, Evoker’s, Exaltation,
+Exarch’s, Excavated, Execution,
+Executioner’s, Exemplar’s, Exiles’,
+Exorcism, Exorcist’s, Extra-Dimensional,
+Extra-Planar
+[21] Eyebiter’s, Fabled, Fading, Faerie,
+Fanatics’, Fanged, Fate, Fated, Fathomless,
+Fearful, Fearsome, Feast, Fell, Festooned,
+Fetid, Fey, Fiend’s
+[22] Fiend-Wrought, Fiendish, Fiery,
+Fighter’s, Fighting Men’s, Filthy, Fire, Fire
+Giant’s, Flesh, Foetid, Flooded, Flooding,
+Fog, Foggy, Fool’s, Forbidden, Forgotten
+[23] Forsaken, Foul, Fountain, Fresco,
+Fresco-Painted, Freezing, Frigid, Frog,
+Frogmen’s, Frost Giant’s, Frozen, Funereal,
+Funerary, Fungal, Fungoid, Fungus, Fury’s
+[24] Gambling, Game, Gaoler’s, Garbage,
+Garbage-Filled, Garden, Gargoyle, GasFilled, Gated, Gemstone, General’s,
+Geomancer’s, Geomantic, Geyser, Ghast,
+Ghastly, Ghost
+[25] Ghostly, Ghoul, Ghoulish, Ghul, Giant,
+Giant’s, Giant Killer’s, Gibbering, Gilded,
+Gilt, Glacial, Glacier, Gladiatorial,
+Gladiators’, Glimmering, Glittering,
+Gloaming
+[26] Gloom, Gloomy, Glorious, Glory,
+Glowing, Glyph, Glyphed, Gnole, Gnome,
+Gnome Laird’s, Gnomish, Goblin, God,
+Godling’s, Gold, Golden, Golem
+[27] Golem Maker’s, Gorgon, Gorgonian,
+Gossamered, Gothic, Grail, Grand, Grand
+Master’s, Granite, Grated, Grave, Grave
+Robbers’, Graven, Gray, Great, Great Old
+One’s, Greater, Green, Greenstone
+[28] Grey, Greyacke, Grievers’, Grieving,
+Griffon, Griffon Rider’s, Grim, Grimalkin,
+Grimoire, Grinder, Grinding, Grisly,
+Groaning, Groaning Spirit’s, Grotesque,
+Grue, Gruesome, Guarded, Guardian
+[29] Guards’, Guardsmen’s, Guild, Guild
+Master’s, Gynosphinx, Gypsum, Hades’,
+Hag’s, Hallowed, Hallucinatory, Harbinger’s,
+Harlequin’s, Harpy, Harrowing, Harvest,
+Harvester’s, Hatchetman’s, Hatching, Hated
+[30] Hated One’s, Hateful, Haunted,
+Haunter’s, Hawk, Hawkmen’s,
+Headhunters’, Headsman’s, Healer’s,
+Healing, Heavenly, Hecatomb, Heir’s, Hell,
+Hell Hound, Hell Spawns’, Hellish,
+Henchmen’s, Herald’s
+[31] Heraldic, Heresiarch’s, Heretical,
+Heretics’, Hermit’s, Hero’s, Heroic, Herzog’s,
+Hetman’s, Hewn, Hexagonal, Hexed,
+Hexer’s, Hexing, Hidden, Hideous,
+Hieracosphinx, Hierarch’s
+[32] Hierophant’s, Hill Giant’s, Hippogriff,
+Hobgoblin, Holy, Hollow, Homunculus,
+Honor, Hope’s, Hopeless, Horde’s, Horde
+Bringer’s, Horned God’s, Horned One’s,
+Horrible, Horrific, Howling, Hrimthursar
+[33] Hungering, Hungering One’s, Hunter’s,
+Huntmaster’s, Huntsmen’s, Husk-Filled,
+Hydra, Hyena, Hyper-Geometrical,
+Hyperborean, Ice, Ichorous, Icon,
+Iconoclasts’s, Idol, Idolaters’, Idolatrous
+[34] Icy, Idyllic, Ifrit, Ill-Fated, Ill-Omened,
+Illusion’s, Illusionary, Illusionist’s, Illusory,
+Immaculate, Immemorial, Immense,
+Immolating, Immolator’s, Immortal,
+Immortal’s, Imp
+[35] Impaler’s, Impaling, Impenetrable,
+Imperial, Imperious, Impious, Imprisoner’s,
+Imprisoning, Impure, Incantation,
+Incantatrix’s, Incubus, Indomitable,
+Inescapable, Inexorable, Infernal
+[36] Inferno, Infestation, Infested, Infester’s,
+Infidels’, Infinite, Inquisition, Inquisitor’s,
+Iniquitous, Insect, Insect Men’s, Insectile,
+Interrogation, Interrogator’s, Inundated,
+Inundating
+[37] Invisible, Invisible Monster’s,
+Invocation, Invoker’s, Iridescent, Iron, 
+Golem, Ivory, Jabberwock’s, Jabberwocky,
+Jacinth, Jackals’, Jade, Jarl’s, Jasper,
+Jellies’, Jester’s, Jewel
+[38] Jeweled, Jotunn, Judgment,
+Juggernaut, Justiciar’s, Keeper’s, Keeping,
+Killer’s, Killing, King’s, Kismet, Knife,
+Knifing, Knight’s, Knightly, Kobold, Kraken,
+Labyrinth
+[39] Labyrinthine, Lady’s, Lamentation,
+Lamenters’, Lamia, Lamprey, Lancer’s,
+Lantern-Illuminated, Lanthorn, Lapis,
+Larva, Larval, Lava, Lazar’s, Lead, Leech,
+Leeching, Legendary, Leviathan’s
+[40] Legion’s, Lemure, Lemurian, Leper’s,
+Lesser, Lethean, Libram, Lich’s, LichenCovered, Lifeless, Light, Lighted, Lightless,
+Lightning, Lignite, Limestone, Lion, Living,
+Lizard
+[41] Lizard King’s, Lizard Men’s, Lizardfolk’s,
+Loathed, Loathed One’s, Loathsome, Locked,
+Locking, Locksmith’s, Locust, Lofty, Lone,
+Looming, Lord’s, Lost, Lost Ones’, Lotus,
+Lotus Eaters’, Louring
+[42] Luminescent, Luck, Luckless, Lucky,
+Lunar, Lunatic’s, Lurkers’, Lurking Ones’,
+Lycanthropes’, Lycanthropic, Macabre,
+Machine, Mad One’s, Maddening,
+Madman’s, Maelstrom, Mage’s, Mage
+Slayer’s, Maggot
+[43] Maggot-Infested, Magic-User’s, Magical,
+Magician’s, Magister’s, Magisterial, Magma,
+Majestic, Malachite, Malevolent, Malign,
+Malignant, Malleus, Manes, Manticore
+[44] Map, Marauders’, Marble, Marmoreal,
+Marquis’s, Marshal’s, Maskers’, Masons’,
+Masonic, Master’s, Mastiffs’, Matriarch’s,
+Matriarchal, Maulers’, Mauling
+[45] Mausolean, Mauve, Mechanical,
+Medusa, Medusan, Melancholic, Memorial,
+Memory, Mephit, Mephitic, Merciless,
+Mercurial, Merciful, Merciless, Mercy
+[46] Merrow, Mesmerist’s, Mesmerizing,
+Miasma, Miasmal, Midnight, Mildew,
+Mildewed, Mimic, Mimic’s, Minotaur’s,
+Mirage, Mirage-Filled, Mirror, Mirrored
+[47] Mist, Mist-Filled, Mist Weaver’s, Misty,
+Mithril, Moaning, Moebius, Mold, Moldering,
+Moldy, Monastic, Monk’s, Monolith,
+Monolithic, Monster
+[48] Monstrous, Moon, Moonbeast,
+Moonstone, Moss-Filled, Mossy,
+Mountebank’s, Mourners’, Mourning, Muck,
+Muck-Filled, Mud, Muddy, Mudstone,
+Mummification
+[49] Mummy’s, Mummy Lord’s, Murder,
+Murderer’s, Murderous, Murk-Filled,
+Murky, Murmuring, Mushroom, MushroomFilled, Musty, Mutants’, Mutating, Mutation,
+Myrmidon’s, Mysterious, Mystery
+[50] Mystic’s, Mystical, Mythic, Mythical,
+Naga, Nameless, Narrow, Nauseating,
+Nebulous, Necromancer’s, Necromantic,
+Nefarious, Nemesis, Nepenthe, Nephilim,
+Nether, Never
+[51] Never-When, Night, Nighted,
+Nightgaunt, Nightmare, Nightmarish,
+Noble’s, Non-Euclidean, Nonesuch, Noxious,
+Oath, Oath Breaker’s, Oath Keeper’s,
+Obelisk, Obliterated, Obliterating
+[52] Oblivion, Observation, Observed,
+Obsidian, Ochre, Octopus, Odious, Offering,
+Ogre, Ogre Mage, Oil, Olympian, Omen,
+Ominous, Oni, Onyx
+[53] Oolite, Ooze, Oozing, Opal, Opalescent,
+Opulent, Oracle’s, Oracular, Orc, Orcish,
+Ore, Ore-Filled, Orichalcum, Ornate,
+Ossuary, Overking’s, Overlord’s
+[54] Paladin’s, Pale, Panther, Paradisaic,
+Parasite, Patriarch’s, Pegasus, Pearl,
+Perfidious, Perilous, Perpetual, Peryton,
+Pestilent, Phantasm’s, Phantasmal,
+Phantasmagoric, Phantom’s
+[55] Pharaoh’s, Pharaonic, Phasing,
+Phoenix, Phosphorescent, Piled, Pillaged,
+Pillagers’, Pirate, Pit, Pixie, Plague, Planar,
+Platinum, Plundered
+[56] Plunderers’, Plutonian, Poisoner’s,
+Poisoning, Poisonous, Pool, Porphyry, Portal,
+Portent, Portentous, Possessing, Priests’,
+Primal, Primeval, Prince’s
+[57] Prisoners’, Procrustean, Profane,
+Prophet’s, Prophesied, Prophetic, Protected,
+Protector’s, Puffball, Puppet, Puppet
+Master’s, Pure, Purified, Purple, Putrefacting
+[58] Putrid, Pyre, Pyric, Pyrologist’s,
+Pyromancer’s, Pyromantic, Quagmire,
+Quaking, Quartz, Queen’s, Quest, Questing
+Beast’s, Quicksand, Quicksilver,
+Quintessence
+[59] Quintessential, Radiant, Raided,
+Raiders’, Rainbow, Rainbowed, Rakes’,
+Rakehells’, Rakshasa, Ranger’s, Ransacked,
+Ransackers’, Rat, Rat-Things’, Reanimating
+[60] Reanimator’s, Ravens’, Reaper’s,
+Reaping, Reavers’, Redeemer’s, Reeking,
+Reflecting, Regent’s, Repentance, Reptile,
+Reptilian, Repulsive, Resplendent,
+Resurrection
+[61] Revelation, Revenant, Revered,
+Revolving, Riddle, Riddling, Rising, Ritual,
+Rogue’s, Rotting, Royal, Rubble, RubbleFilled, Ruby, Ruined
+[62] Ruinous, Rune, Runic, Rusting, Sacred,
+Sacrificial, Sacrosanct, Sage’s, Salamandra,
+Salt, Salt-Encrusted, Sand, Sand-Filled,
+Sandstone, Sapphire
+[63] Sarcophagus, Satyr, Savages’, Savant’s,
+Scapegrace’s, Scarab, Scarecrow, Scarlet,
+Scavengers’, Scintillating, Scion’s, Scorched,
+Scorching, Scorpion, Scourge, Scourging
+[64] Screaming, Scythe, Scything, Sealed,
+Secret, Sect’s, Seekers’, Seer’s, Seething,
+Seneschal’s, Sepulchral, Serene, Serpent,
+Serpent Folk’s, Serpentine, Servitors’
+[65] Shadow, Shadow Lord’s, Shadowed,
+Shaking, Shallow, Shaman’s, Shamanic,
+Shambler, Shambling, Shark, Sharper’s
+Shattered, Shattering, Shedu, Shield
+Bearers’
+[66] Shielded, Shifting, Shimmering,
+Shoggoth, Shrieker, Shrieking, Shrine,
+Shriveling, Shroud, Shrouded, Shunned,
+Sibyl’s, Sibylline, Sicarii’s, Siege
+[67] Siege Master’s, Silent, Silt, Silted,
+Siltstone, Silver, Simulacrum’s, Sinister,
+Sinking, Skeletal, Skeleton, Skeleton Lord’s,
+Skull, Skull-Filled, Slaughter, Slaughterers’,
+Slave, Slaves’, Slave Lord’s
+[68] Slavers’, Slayer’s, Slaying, Sleeping,
+Slime, Slime-Filled, Slime Mold, Slimy,
+Slithering, Slithering One’s, Sludge, SludgeFilled, Slug, Smoke, Smoke-Filled, Smoky,
+Snake, Snare, Solar
+[69] Sonorous, Soot-Encrusted,
+Soothsayer’s, Sorcerer’s, Sorcerous, Soul,
+Soul Eater’s, Soulless, Soundless, Spawn,
+Spawning, Spectral, Spectre, Sphinx, Spice,
+Spice Harvesters’, Spider, Spy’s
+[70] Spirit’s, Spore-Infested, Spriggan,
+Sprite, Stalactite, Stalagmite, Stalker’s,
+Starless, Starry, Statue, Steam, SteamFilled, Steel, Stinking, Stench-Ridden,
+Stone, Stonecutters’, Stony
+[71] Storm, Storm Bringer’s, Storm Giant’s,
+Strange, Strangler’s, Strega’s, Stryx,
+Stygian, Submerged, Subterranean,
+Succubus, Suffocating
+[72] Sulfur, Sulfurous, Summoner’s,
+Summoning, Sundered, Sunderer’s,
+Sundering, Sunken, Sunless, Swarm,
+Swarm-Infested, Sword
+[73] Sword Master’s, Swordsmen’s, Taboo,
+Talismanic, Tar Pit, Tarasque, Teleporter,
+Teleporting, Templars’, Tempter’s,
+Tenebrous, Tentacled
+[74] Terrifying, Thane’s, Thaumaturge’s,
+Thalassic, Theurgist’s, Thieves’, Thralls’,
+Throne, Thugs’, Thuggee, Thunder,
+Thundering
+[75] Tick, Tiger, Time-Altering, Timeless,
+Timeworn, Titan’s, Toad, Topaz, Tormenting,
+Tormentor’s, Torture, Torturer’s
+[76] Traitor’s, Tranquil, Trap, Trapped,
+Treacherous, Treasure, Treasure-Filled,
+Treasure Hunters’, Trembling, Tribal, Trick,
+Trickster’s
+[77] Triumphator’s, Troglodyte, Trolghul,
+Troll, Troll Crusher’s, Trophy, Trophy
+Taker’s, Tumultuous, Twilight, Twilit,
+Twisted, Tyrant’s, Umber
+[78] Umbral, Unbeheld, Unbelievers’,
+Unborn One’s, Uncanny, Unconquerable,
+Undead, Undefended, Undefiled,
+Underground, Underwater, Undiscovered,
+Undying
+[79] Unearthed, Unearthly, Unexcavated,
+Unexplored, Unfathomable, Unguarded,
+Unhallowed, Unholy
+[80] Unicorn, Unknowable, Unknown, Unlit,
+Unnamable, Unreachable, Unreflecting,
+Unspeakable
+[81] Unstable, Unthinkable, Untouchable,
+Usurper’s, Utopian, Vampire, Vampire
+Hunter’s
+[82] Vampire King’s, Vampire Spawns’,
+Vampiric, Vanguards’, Vanished, Vanishing,
+Vanquisher’s
+[83] Vanquishing, Vaporous, Vast, Vaulted,
+Veiled, Vengeful, Venom
+[84] Venomous, Verdigris-Encrusted,
+Vermin, Vermin-Infested, Vertiginous,
+Vestals’, Vexing
+[85] Victor’s, Violet, Viper, Viperous,
+Viridian, Virtuous, Viscount’s
+[86] Void, Volcanic, Volcano, Vorpal,
+Vulture, Wailing, Walled-Up
+[87] Wand Maker’s, Wanderers’, War,
+Warded, Warden’s, Warders’, Warlock’s
+[88] Warlord’s, Warmongers’, Warped,
+Warping, Warriors’, Wasp, Waste
+[89] Waste-Filled, Watchers’, Water,
+Waterfall, Watery, Web-Covered, Webbed
+[90] Weeping, Weird, Weirding, Wendigo,
+Werebear, Wereboar, Wererat
+[91] Weretiger, Werewolf, Whirling,
+Whirlpool, Whispering, Whited, Wicker Man
+[92] Widow’s, Widow Maker’s, Widower’s,
+Wight, Wild Hunt’s, Will-o’-Wisp, Wind
+[93] Wind Treader’s, Winding, Windy,
+Winter, Winter Wolf, Witch’s, Witch Doctor’s
+[94] Witch Hunter’s, Withered Ones’,
+Withering, Wizard’s, Wizardly, Woeful, Wolf
+[95] Wolverine, Wonder, Wondrous, Worm,
+Worm-Infested, Wraith, Wretched
+[96] Wretched Ones’, Writhing, Writhing
+Ones’, Wulfen, Wyrm, Wyvern, Xoron
+[97] Yellow, Yellow King’s, Yeti, Yith
+[98] Yithian, Yuggoth, Yuggothian, Zealots’
+[99] Zombie, Zombie Master’s
+[00] Zombification
+    },
+    "Evocative Random Roons Nouns": {
+        [01] Abattoir, Abreuvoir, Abyss,
+Accommodation(s), Adyton
+[02] Aerarium, Aerary, Aerie, Agiasterium,
+Alcove(s)
+[03] Alhacena, Alipterion, Almonry, Altar,
+Ambry
+[04] Ambulatory, Amphitheater, Andron,
+Annex, Antecabinet
+[05] Antecavern, Antechamber, Anteroom,
+Antrum, Apodyterium
+[06] Apothecarium, Apothecary, Approach,
+Apse, Aquarium
+[07] Aqueduct, Arboretum, Arch(es),
+Archive, Arcosolium
+[08] Area, Arena, Armory, Arsenal,
+Ascension
+[09] Assemblage, Asylum, Atelier, Atrium,
+Attic
+[10] Auditorium, Aula, Aviary, Bailey,
+Bakery
+[11] Ballroom, Balnea, Balnearium,
+Barbican, Barracks
+[12] Barrier, Barrow, Basement, Bastion,
+Bath
+[13] Bawm, Bay, Bedchamber, Bedroom
+[14] Belfry, Bema, Bestiary, Bodega
+[15] Bone House, Boudoir, Bouleterion,
+Bourse
+[16] Bower, Breezeway, Brewery, Bridge
+[17] Burrow, Buttery, Cabinet(s), Cage(s)
+[18] Calefactorium, Calefactory,
+Calidarium, Camp
+[19] Carcer, Cascade, Catacombs,
+Catacumba, Catwalk
+[20] Cavaedium, Cave, Cavea, Cavelet,
+Cavern
+[21] Cavity, Ceiling Gap, Cell(s), Cell Block,
+Cella
+[22] Cellar, Cellarage, Cenaculum, Ceroma,
+Cesspit
+[23] Cesspool, Chamber, Chancel,
+Chandlery
+[24] Chantier, Chantry, Chapel,
+Chartophylacium
+[25] Chasm, Chimney, Choir, Chute
+[26] Cimeliarch, Cinearium, Cistern,
+Cistvaen
+[27] Classroom, Cleft, Clinic, Cloaca
+[28] Cloister, Coldroom, Colony,
+Columbarium
+[29] Column(s), Commandery, Common
+Room, Conclave
+[30] Conclavium, Conditivum, Conduit,
+Confessional
+[31] Conservatory, Control Room,
+Conundrum, Corridor
+[32] Court(yard), Crawlspace, Crawlway,
+Crematorium
+[33] Crevice, Crossing, Crowde, Crypt
+[34] Cube, Cubicle(s), Cul-de-Sac, Cylinder
+[35] Cyst, Darkroom, Dayroom, Dead End
+[36] Deathtrap, Defile, Delubrum, Delve
+[37] Demise, Den, Depository, Diaconia
+[38] Diaconicon, Distillery, Ditch, Domain
+[39] Dome, Domicile, Dominion, Donjon
+[40] Doom, Door(s), Doorway(s), Dormitory
+[41] Dorter, Drawbridge, Drying Room,
+Dumbwaiter
+[42] Dungeon, Elevator, Encampment,
+Enclave
+[43] Enclosure, End, Enigma, Entry
+[44] Ewery, Excavation, Excubitorium,
+Fane
+[45] Fastness, Fate, Favissa, Fire Pit
+[46] Fissure, Floor(s), Forecourt, Forge
+[47] Formicary, Foundry, Fountain, Foyer
+[48] Frater, Frigidarium, Fungarium,
+Galleria
+[49] Gallery, Gaol, Garden, Garderobe
+[50] Garret, Garrison, Gate(s), Gatehouse
+[51] Gauntlet, Granary, Grapery, Grave
+[52] Great Hall, Great Room, Grot, Grotto
+[53] Guard Post, Guardroom, Gymnasium,
+Gynaeceum
+[54] Hall, Hallway, Harem, Harrow
+[55] Hatch(es), Hatchery, Hatchway, Haunt
+[56] Haven, Heap, Hearth, Helieum
+[57] Herbarium, Hermitage, Heroum,
+Hideout
+[58] Hiding Place, Hieron, Hive, Hold
+[59] Holdfast, Hole(s), Hollow(s),
+Horologium
+[60] Hospitalium, Hospitium, Hostel,
+Hypocaust
+[61] Hypogaeum, Icehouse, Inferno,
+Infirmary
+[62] Intersection, Jail, Juncture, Keep
+[63] Kennel, Kitchen, Laboratory, Labyrinth
+[64] Laconicum, Ladder(s), Lair, Lake
+[65] Landing, Larder, Latrine, Lavatory
+[66] Lazarette, Leap, Library, Lightwell
+[67] Lobby, Locker(s), Lockup, Locutorium
+[68] Lode, Loft, Loggia, Lookout
+[69] Lounge, Lyceum, Madness,
+Manufactory
+[70] Martyrium, Mausoleum, Maw, Maze
+[71] Megaron, Menagerie, Metroon,
+Mezzanine
+[72] Mindscape, Mine(s), Mineshaft,
+Misericord
+[73] Moat, Morgue, Motte, Museum
+[74] Mushroom Forest, Narthex,
+Natatorium, Nave
+[75] Necropolis, Nether, Netherworld, Nest
+[76] Nexus, Niche(s), Nook(s), Novitiate
+[77] Nursery, Nymphaeum, Observatory,
+Obsctruction, Opisthodomos, Oratory
+[78] Ossuary / Ossuaries, Oubliette(s),
+Outlet(s), Outpost, Overlook, Palace
+[79] Pantry, Parlor, Passage(s),
+Passageway(s), Pen(s), Peristyle, Pillar(s)
+[80] Pipe(s), Pit(s), Planetarium, Playroom,
+Plunge, Pool, Portcullis
+[81] Potionry, Priest Hole, Prison, Privy,
+Processional, Promenade, Proving Ground
+[82] Psychomanteum, Puzzle, Pyre, Quarry,
+Quarters, Ramp, Reach(es)
+[83] Recess, Redoubt, Refectorium,
+Refectory, Refuge, Reliquary, Repository
+[84] Reredorter, Reservoir, Retreat, River,
+Rivulet, Room, Roomlet
+[85] Roost, Rotunda, Rubble Heap,
+Sacrarium, Sacristy, Salon, Sanctuary
+[86] Sanctum, Sanctum Sanctorum,
+Sandpit, Sarcophagus, Sauna, Scrapheap,
+Scriptorium
+[87] Scullery, Seam, Seminary, Sepulcher,
+Seraglio, Servery, Sewer
+[88] Shaft, Shanty / Shanties, Shop,
+Shrine, Sinkhole, Slaughterhouse, Slide
+[89] Slope, Smelter, Smithy, Smoke Hole,
+Solar, Solarium, Sphere
+[90] Spiral, Stable, Stair(s), Staircase,
+Stairway, Statuary, Statue(s) (Hall)
+[91] Stockpile, Storage Chamber,
+Storeroom, Stream, Stricture, Strongroom,
+Studio
+[92] Study, Sub-Basement, Sub-Cellar,
+Sudatorium, Suite(s), Sunroom, Swamp
+[93] Tablinum, Tank, Teleporter, Temple,
+Templum, Tepidarium, Terminus
+[94] Theater, Therma, Threshold, Throne
+Room, Tomb, Toolroom, Tower
+[95] Transept, Trap, Trash Heap, Treasure
+(Room), Treasure Vault, Treasury, Trench
+[96] Trick, Triclinium, Tunnel, Turret,
+Undercroft, Underhall, Undervault
+[97] Underworld, Vault, Vein(s), Vent,
+Vestiary, Vestibule, Vestry
+[98] Vigil, Vinery, Void, Vortex, Walkway,
+Wall(s), Ward
+[99] Wardrobe, Warren(s), Watchroom,
+Waterfall, Waterway, Well, Whirlpool
+[00] Workpit(s), Workroom, Workshop,
+Ziggurat, Zigzag, Zone, Zoo
     }
 }
